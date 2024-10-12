@@ -323,7 +323,8 @@
                         <div class="footer-logo"><a href="index.html"><img src="{{ asset('images/logo.svg') }}"
                                     alt="" title=""></a>
                         </div>
-                        <div class="footer-copyright">&copy; 2024 <a href="index.html">EDUC-AI.</a> Tous droits
+                        <div class="footer-copyright">&copy; 2024 <a href="{{ route('index') }}">EDUC-AI.</a> Tous
+                            droits
                             réservés.</div>
                         <!-- Social Box -->
                         <div class="footer-social_box">
