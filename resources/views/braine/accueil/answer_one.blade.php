@@ -7,7 +7,7 @@
                 <div class="answer-one_title-outer">
                     <!-- Sec Title -->
                     <div class="sec-title title-anim">
-                        <div class="sec-title_title">AI ANSWERS</div>
+                        <div class="sec-title_title">Tuteur virtuel</div>
                         <h2 class="sec-title_heading">Gain <span>full control</span> of your information docs
                             and many more</h2>
                     </div>

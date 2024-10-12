@@ -3,7 +3,12 @@
         <!-- Sec Title -->
         <div class="sec-title centered">
             <div class="sec-title_title">Our Service</div>
-            <h2 class="sec-title_heading">Experience our latest <br> <span>new features</span></h2>
+            <h2 class="sec-title_heading">Nos formations <br>
+                <span style="font-size: 20px">
+                    Grâce à un algorithme basé sur l'IA, nous vous offons un
+                    moyen plus simple de trouver des formations qui pourraient vous interessez
+                </span>
+            </h2>
         </div>
         <div class="row clearfix">
 

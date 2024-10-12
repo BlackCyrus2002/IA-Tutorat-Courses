@@ -3,8 +3,8 @@
         <div class="inner-container">
             <!-- Sec Title -->
             <div class="sec-title light centered">
-                <div class="sec-title_title">why chose us</div>
-                <h2 class="sec-title_heading">Reason to chose our <br> <span>platform</span></h2>
+                <div class="sec-title_title">Pourquoi nous choisir</div>
+                <h2 class="sec-title_heading">Raison pour choisir notre <br> <span>plateforme</span></h2>
             </div>
             <div class="row clearfix">
 

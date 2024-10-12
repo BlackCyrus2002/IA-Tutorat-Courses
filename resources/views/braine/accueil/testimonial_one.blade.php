@@ -4,8 +4,8 @@
             style="background-image:url({{ asset('images/background/testimonial-one_bg.png') }})">
             <!-- Sec Title -->
             <div class="sec-title centered">
-                <div class="sec-title_title">Testimonials</div>
-                <h2 class="sec-title_heading">What our respectable <br> <span>clients says</span></h2>
+                <div class="sec-title_title">Témoignages</div>
+                <h2 class="sec-title_heading">Ce que disent nos <br> <span>clients respectables</span></h2>
             </div>
             <div class="three-item_carousel swiper-container">
                 <div class="swiper-wrapper">

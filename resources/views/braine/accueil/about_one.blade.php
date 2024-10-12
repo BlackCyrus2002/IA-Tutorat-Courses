@@ -24,7 +24,7 @@
                 <div class="about-one_content-outer">
                     <!-- Sec Title -->
                     <div class="sec-title">
-                        <div class="sec-title_title">About us</div>
+                        <div class="sec-title_title">À propos de nous</div>
                         <h2 class="sec-title_heading">Crafting of your digital <span>narrative discover</span>
                             our journey</h2>
                     </div>
