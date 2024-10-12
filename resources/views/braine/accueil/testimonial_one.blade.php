@@ -1,4 +1,4 @@
-<section class="testimonial-one">
+<section class="testimonial-one" id="slider6">
     <div class="auto-container">
         <div class="inner-container"
             style="background-image:url({{ asset('images/background/testimonial-one_bg.png') }})">

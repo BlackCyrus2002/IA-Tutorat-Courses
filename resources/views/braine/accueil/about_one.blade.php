@@ -1,4 +1,4 @@
-<section class="about-one">
+<section class="about-one" id="slider3">
     <div class="about-one_pattern" style="background-image:url({{ asset('images/background/about-pattern.png') }})">
     </div>
     <div class="about-one_icon" style="background-image:url({{ asset('images/icons/about-1.png') }})">

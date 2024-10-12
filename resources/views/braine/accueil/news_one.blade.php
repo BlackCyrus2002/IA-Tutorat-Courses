@@ -1,4 +1,4 @@
-<section class="news-one">
+<section class="news-one" id="slider7">
     <div class="news-one_shadow" style="background-image:url({{ asset('images/background/news-shadow-1.png') }})">
     </div>
     <div class="news-one_shadow-two" style="background-image:url({{ asset('images/background/news-shadow-2.png') }})">

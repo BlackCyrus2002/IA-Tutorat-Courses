@@ -1,4 +1,4 @@
-<section class="slider-one">
+<section class="slider-one" id="slider1">
     <div class="main-slider swiper-container">
         <div class="swiper-wrapper">
 

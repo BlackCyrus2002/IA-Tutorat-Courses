@@ -84,22 +84,20 @@
 
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li class="dropdown"><a href="#">Home</a>
+                                            <li class="dropdown"><a href="#">Accueil</a>
                                                 <ul>
-                                                    <li><a href="index.html">HomePage 01</a></li>
-                                                    <li><a href="index-2.html">HomePage 02</a></li>
-                                                    <li><a href="index-3.html">HomePage 03</a></li>
-                                                    <li class="dropdown"><a href="#">Header Style</a>
-                                                        <ul>
-                                                            <li><a href="index.html">Header 01</a></li>
-                                                            <li><a href="index-2.html">Header 02</a></li>
-                                                            <li><a href="index-3.html">Header 03</a></li>
-                                                        </ul>
+                                                    <li><a href="#slider1">EDUC-AI c'est quoi?</a></li>
+                                                    <li><a href="#slider2">Nos formations</a></li>
+                                                    <li><a href="#slider3">À propos de nous</a></li>
+                                                    <li><a href="#slider4">Raison pour choisir notre plateforme</a>
+                                                    </li>
+                                                    <li><a href="#slider5">À propos du Tutorat Virtuel</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li class="dropdown"><a href="#">Pages</a>
+                                            <li><a href="#slider6">Témoignages</a></li>
+                                            <li><a href="#slider7">Actualités</a></li>
+                                            {{-- <li class="dropdown"><a href="#">Pages</a>
                                                 <ul>
                                                     <li><a href="faq.html">Faq</a></li>
                                                     <li><a href="pricing.html">Price</a></li>
@@ -128,8 +126,9 @@
                                                     <li><a href="news-detail.html">Blog detail</a></li>
                                                     <li><a href="not-found.html">Not found</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            </li> --}}
+                                            <li><a href="#slider8">Contact</a></li>
+                                            <li><a href="#slider9">Faq</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -147,37 +146,39 @@
                                             class="fa-solid fa-angle-down fa-fw"></span>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#"><span class="flag"><img
-                                                        src="{{ asset('images/icons/flag.png') }}"
-                                                        alt="" /></span>
-                                                English</a></li>
-                                        <li><a class="dropdown-item" href="#"><span class="flag"><img
-                                                        src="{{ asset('images/icons/arabic.png') }}"
-                                                        alt="" /></span>
-                                                Arbic</a></li>
-                                        <li><a class="dropdown-item" href="#"><span class="flag"><img
-                                                        src="{{ asset('images/icons/germany.png') }}"
-                                                        alt="" /></span>
-                                                German</a></li>
-                                        <li><a class="dropdown-item" href="#"><span class="flag"><img
-                                                        src="{{ asset('images/icons/france.png') }}"
-                                                        alt="" /></span>
-                                                French</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <span class="flag">
+                                                    <img src="{{ asset('images/icons/flag.png') }}" alt="" />
+                                                </span> Anglais
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <span class="flag">
+                                                    <img src="{{ asset('images/icons/france.png') }}"
+                                                        alt="" />
+                                                </span> Français
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 
                                 <!-- Button Box -->
                                 <div class="main-header_buttons">
-                                    <a href="#" class="template-btn btn-style-two">
+                                    <a href="{{ route('braine.con_insc.login') }}"
+                                        class="template-btn btn-style-two">
                                         <span class="btn-wrap">
-                                            <span class="text-one">Login</span>
-                                            <span class="text-two">Login</span>
+                                            <span class="text-one">Se connecter</span>
+                                            <span class="text-two">Se connecter</span>
                                         </span>
                                     </a>
-                                    <a href="#" class="template-btn btn-style-one">
+                                    <a href="{{ route('braine.con_insc.register') }}"
+                                        class="template-btn btn-style-one">
                                         <span class="btn-wrap">
-                                            <span class="text-one">Join now</span>
-                                            <span class="text-two">Join now</span>
+                                            <span class="text-one">S'enregistrer</span>
+                                            <span class="text-two">S'enregistrer</span>
                                         </span>
                                     </a>
                                 </div>
@@ -209,8 +210,11 @@
                 <div class="close-btn"><span class="icon fa-solid fa-xmark fa-fw"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="{{ asset('') }}images/mobile-logo.svg"
-                                alt="" title=""></a></div>
+                    <div class="nav-logo">
+                        <a href="{{ route('index') }}">
+                            <img src="{{ asset('images/mobile-logo.svg') }}" alt="" title="">
+                        </a>
+                    </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>

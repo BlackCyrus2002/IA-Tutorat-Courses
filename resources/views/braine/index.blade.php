@@ -1,5 +1,5 @@
 @extends('base')
-@section('title', 'Braine Digital Agency Business HTML-5 Template | Homepage 01')
+@section('title', 'Accueil EDUC-AI')
 @section('content')
 
     <!-- Slider One -->

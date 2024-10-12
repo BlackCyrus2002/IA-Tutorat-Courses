@@ -1,4 +1,4 @@
-<section class="choose-one">
+<section class="choose-one" id="slider4">
     <div class="auto-container">
         <div class="inner-container">
             <!-- Sec Title -->

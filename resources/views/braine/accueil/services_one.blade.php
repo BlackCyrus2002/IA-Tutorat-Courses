@@ -1,4 +1,4 @@
-<section class="services-one">
+<section class="services-one" id="slider2">
     <div class="auto-container">
         <!-- Sec Title -->
         <div class="sec-title centered">

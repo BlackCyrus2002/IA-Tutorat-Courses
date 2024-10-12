@@ -10,4 +10,12 @@ class AccueilController extends Controller
     {
         return view('braine.index');
     }
+    public function register()
+    {
+        return view('braine.con_insc.register');
+    }
+    public function login()
+    {
+        return view('braine.con_insc.login');
+    }
 }

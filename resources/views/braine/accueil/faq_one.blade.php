@@ -1,4 +1,4 @@
-<section class="faq-one">
+<section class="faq-one" id="slider9">
     <div class="faq-one_bg" style="background-image:url({{ asset('images/background/faq-bg.png') }})">
     </div>
     <div class="faq-one_icon" style="background-image:url({{ asset('images/icons/step.png') }})"></div>
