@@ -16,6 +16,7 @@ Route::get('/', [AccueilController::class, 'index'])->name('index');
 Route::prefix('/')->name("braine.")->group(function () {
     Route::get('/inscrivez-vous', [AccueilController::class, 'register'])->name('con_insc.register');
     Route::get('/connectez-vous', [AccueilController::class, 'login'])->name('con_insc.login');
+    Route::get('/nous-contacter', [AccueilController::class, 'contact'])->name('contact.contact');
 });
 
 

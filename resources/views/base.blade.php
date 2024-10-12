@@ -64,8 +64,11 @@
                         <div class="d-flex justify-content-between align-items-center flex-wrap">
 
                             <div class="logo-box">
-                                <div class="logo"><a href="index.html"><img src="{{ asset('images/logo.svg') }}"
-                                            alt="" title=""></a></div>
+                                <div class="logo">
+                                    <a href="{{ route('index') }}">
+                                        <img src="{{ asset('images/logo.svg') }}" alt="" title="">
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="nav-outer d-flex flex-wrap">
@@ -86,17 +89,21 @@
                                         <ul class="navigation clearfix">
                                             <li class="dropdown"><a href="#">Accueil</a>
                                                 <ul>
-                                                    <li><a href="#slider1">EDUC-AI c'est quoi?</a></li>
-                                                    <li><a href="#slider2">Nos formations</a></li>
-                                                    <li><a href="#slider3">À propos de nous</a></li>
-                                                    <li><a href="#slider4">Raison pour choisir notre plateforme</a>
+                                                    <li><a href="{{ route('index') }}#slider1">EDUC-AI c'est quoi?</a>
                                                     </li>
-                                                    <li><a href="#slider5">À propos du Tutorat Virtuel</a>
+                                                    <li><a href="{{ route('index') }}#slider2">Nos formations</a></li>
+                                                    <li><a href="{{ route('index') }}#slider3">À propos de nous</a>
+                                                    </li>
+                                                    <li><a href="{{ route('index') }}#slider4">Raison pour choisir
+                                                            notre plateforme</a>
+                                                    </li>
+                                                    <li><a href="{{ route('index') }}#slider5">À propos du Tutorat
+                                                            Virtuel</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#slider6">Témoignages</a></li>
-                                            <li><a href="#slider7">Actualités</a></li>
+                                            <li><a href="{{ route('index') }}#slider6">Témoignages</a></li>
+                                            <li><a href="{{ route('index') }}#slider7">Actualités</a></li>
                                             {{-- <li class="dropdown"><a href="#">Pages</a>
                                                 <ul>
                                                     <li><a href="faq.html">Faq</a></li>
@@ -127,8 +134,8 @@
                                                     <li><a href="not-found.html">Not found</a></li>
                                                 </ul>
                                             </li> --}}
-                                            <li><a href="#slider8">Contact</a></li>
-                                            <li><a href="#slider9">Faq</a></li>
+                                            <li><a href="{{ route('braine.contact.contact') }}">Contact</a></li>
+                                            <li><a href="{{ route('index') }}#slider9">FAQ</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -249,11 +256,11 @@
                                             <div class="form-group">
                                                 <span class="icon fa-regular fa-envelope fa-fw"></span>
                                                 <input type="email" name="search-field" value=""
-                                                    placeholder="Enter your mail" required>
+                                                    placeholder="Entrer votre email" required>
                                                 <button type="submit" class="template-btn btn-style-one">
                                                     <span class="btn-wrap">
-                                                        <span class="text-one">Subscribe</span>
-                                                        <span class="text-two">Subscribe</span>
+                                                        <span class="text-one">S'abonner</span>
+                                                        <span class="text-two">S'abonner</span>
                                                     </span>
                                                 </button>
                                             </div>
@@ -316,8 +323,8 @@
                         <div class="footer-logo"><a href="index.html"><img src="{{ asset('images/logo.svg') }}"
                                     alt="" title=""></a>
                         </div>
-                        <div class="footer-copyright">&copy; 2024 <a href="index.html">Braine.</a> All rights
-                            reserved.</div>
+                        <div class="footer-copyright">&copy; 2024 <a href="index.html">EDUC-AI.</a> Tous droits
+                            réservés.</div>
                         <!-- Social Box -->
                         <div class="footer-social_box">
                             <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>

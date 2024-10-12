@@ -18,4 +18,8 @@ class AccueilController extends Controller
     {
         return view('braine.con_insc.login');
     }
+    public function contact()
+    {
+        return view('braine.contact.contact');
+    }
 }
