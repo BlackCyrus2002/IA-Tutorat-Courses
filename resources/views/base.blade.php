@@ -31,6 +31,9 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <!-- end theme style -->
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/header/favicon.png') }}" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 
 <body>
@@ -47,7 +50,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                 <a href="javascript:void(0);" id="login_button">Se connecter</a>
                                 <div id="login_one" class="ed_login_form">
                                     <h3>Se connecter</h3>
-                                    <form class="form">
+                                    <form class="form" action="{{ route('dashboard.dashboard') }}" method="GET">
                                         <div class="form-group">
                                             <label class="control-label">Email :</label>
                                             <input type="text" class="form-control">
@@ -236,7 +239,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <script src="{{ asset('js/plugins/countto/jquery.countTo.js') }}"></script>
     <script src="{{ asset('js/plugins/countto/jquery.appear.js') }}"></script>
     <script src="{{ asset('js/one-course-custom.js') }}"></script>
-
+    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 
 </html>
