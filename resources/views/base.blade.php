@@ -78,10 +78,10 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             <div class="main-menu-container">
                                 <div class="main-menu">
                                     <ul id="desktop-nav">
-                                        <li class="active"><a href="#home">home</a></li>
-                                        <li><a href="#about">about us</a></li>
-                                        <li><a href="#features">features</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li class="active"><a href="{{ route('index') }}#home">home</a></li>
+                                        <li><a href="{{ route('index') }}#about">about us</a></li>
+                                        <li><a href="{{ route('index') }}#features">features</a></li>
+                                        <li><a href="{{ route('index') }}#contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
