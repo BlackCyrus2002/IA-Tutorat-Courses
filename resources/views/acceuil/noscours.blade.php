@@ -19,7 +19,7 @@
                     data-wow-duration="1500ms"
                     style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="service-block_one-icon">
-                        <i class="icon-speaker1"></i>
+                        <i class="icon-copy dw dw-speaker-1"></i>
                     </div>
                     <h5 class="service-block_one-heading"><a href="service-detail.html">Digital marketers</a></h5>
                     <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
@@ -28,7 +28,7 @@
                     <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
                         <div class="service-block_one-number">01</div>
                         <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa-solid fa-plus fa-fw"></i></a>
+                                class="fa fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     data-wow-duration="1500ms"
                     style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                     <div class="service-block_one-icon">
-                        <i class="icon-marketing"></i>
+                        <i class="icon-copy dw dw-analytics-17"></i>
                     </div>
                     <h5 class="service-block_one-heading"><a href="service-detail.html">Content marketers</a></h5>
                     <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
@@ -48,7 +48,7 @@
                     <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
                         <div class="service-block_one-number">02</div>
                         <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa-solid fa-plus fa-fw"></i></a>
+                                class="fa fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     data-wow-duration="1500ms"
                     style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
                     <div class="service-block_one-icon">
-                        <i class="icon-users"></i>
+                        <i class="icon-copy dw dw-user-1"></i>
                     </div>
                     <h5 class="service-block_one-heading"><a href="service-detail.html">Founders</a></h5>
                     <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
@@ -68,7 +68,7 @@
                     <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
                         <div class="service-block_one-number">03</div>
                         <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa-solid fa-plus fa-fw"></i></a>
+                                class="fa fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                     data-wow-duration="1500ms"
                     style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="service-block_one-icon">
-                        <i class="icon-copyright"></i>
+                        <span class="icon-copy ti-write"></span>
                     </div>
                     <h5 class="service-block_one-heading"><a href="service-detail.html">Copywriters</a></h5>
                     <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
@@ -88,7 +88,7 @@
                     <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
                         <div class="service-block_one-number">04</div>
                         <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa-solid fa-plus fa-fw"></i></a>
+                                class="fa fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     data-wow-duration="1500ms"
                     style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
                     <div class="service-block_one-icon">
-                        <i class="icon-tag"></i>
+                        <i class="icon-copy dw dw-tag"></i>
                     </div>
                     <h5 class="service-block_one-heading"><a href="service-detail.html">SEO specialists</a></h5>
                     <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
@@ -108,7 +108,7 @@
                     <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
                         <div class="service-block_one-number">05</div>
                         <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa-solid fa-plus fa-fw"></i></a>
+                                class="fa fa-plus"></i></a>
                     </div>
                 </div>
             </div>

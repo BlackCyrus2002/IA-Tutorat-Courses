@@ -27,6 +27,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/one-course-style.css') }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendors/styles/icon-font.min.css') }}" />
     <!-- end theme style -->
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/header/favicon.png') }}" />
