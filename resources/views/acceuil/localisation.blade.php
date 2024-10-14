@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12 ed_bottompadder70">
                         <div class="ed_heading_top">
-                            <h3>Find us here</h3>
+                            <h3>Nous retrouver ?</h3>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -17,31 +17,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    {{-- <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="ed_heading_top">
-                            <h3>Send us a message</h3>
+                            <h3>Nous envoyer un message</h3>
                         </div>
                     </div>
                     <div class="ed_contact_form ed_toppadder60 row m-0">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <input type="text" id="uname" class="form-control" placeholder="Your Name">
+                                <input type="text" id="uname" class="form-control" placeholder="Votre Nom">
                             </div>
                             <div class="form-group">
-                                <input type="email" id="umail" class="form-control" placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="sub" class="form-control" placeholder="Subject">
+                                <input type="email" id="umail" class="form-control" placeholder="Votre Email">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="form-group">
-                                <textarea id="msg" class="form-control" rows="6" placeholder="Message"></textarea>
+                                <textarea id="msg" class="form-control" rows="6" placeholder="Votre Message"></textarea>
                             </div>
-                            <button id="ed_submit" class="btn ed_btn ed_orange pull-right">send</button>
+                            <button id="ed_submit" class="btn ed_btn ed_orange pull-right">Envoyer</button>
                             <p id="err"></p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
