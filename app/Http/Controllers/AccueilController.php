@@ -14,4 +14,8 @@ class AccueilController extends Controller
     {
         return view('braine.register');
     }
+    public function private_policy()
+    {
+        return view('braine.private_policy');
+    }
 }

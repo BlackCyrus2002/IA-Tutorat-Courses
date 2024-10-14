@@ -40,23 +40,23 @@ Purchase: http://themeforest.net/user/kamleshyadav
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
-                            <p>Welcome To Our New Session Of Education</p>
+                            <p>Bienvenue sur EDUC-AI</p>
                             <div class="ed_info_wrapper">
-                                <a href="javascript:void(0);" id="login_button">Login</a>
+                                <a href="javascript:void(0);" id="login_button">Se connecter</a>
                                 <div id="login_one" class="ed_login_form">
-                                    <h3>log in</h3>
+                                    <h3>Se connecter</h3>
                                     <form class="form">
                                         <div class="form-group">
                                             <label class="control-label">Email :</label>
                                             <input type="text" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label">Password :</label>
+                                            <label class="control-label">Mot de passe :</label>
                                             <input type="password" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <button type="submit">login</button>
-                                            <a href="{{ route('braine.register') }}">Registration</a>
+                                            <button type="submit">Se connecter</button>
+                                            <a href="{{ route('braine.register') }}">S'enregistrer</a>
                                         </div>
                                     </form>
                                 </div>
@@ -107,87 +107,6 @@ Purchase: http://themeforest.net/user/kamleshyadav
 
         @yield('content')
 
-        <!--Section fourteen Contact form start-->
-        <div class="ed_transprentbg ed_toppadder80 ed_bottompadder80" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ed_bottompadder70">
-                        <div class="ed_heading_top">
-                            <h3>Find us here</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="ed_event_single_address_map ed_bottompadder50">
-                            <div id="map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.30120302504!2d54.947561088342766!3d25.076381466775672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1633159256205!5m2!1sen!2sin"
-                                    width="100%" height="340" style="border:0;" allowfullscreen=""
-                                    loading="lazy"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="ed_heading_top">
-                            <h3>Send us a message</h3>
-                        </div>
-                    </div>
-                    <div class="ed_contact_form ed_toppadder60 row m-0">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <input type="text" id="uname" class="form-control" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="umail" class="form-control" placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="sub" class="form-control" placeholder="Subject">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <textarea id="msg" class="form-control" rows="6" placeholder="Message"></textarea>
-                            </div>
-                            <button id="ed_submit" class="btn ed_btn ed_orange pull-right">send</button>
-                            <p id="err"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Section fourteen Contact form start-->
-        <!--Newsletter Section six start-->
-        <div class="ed_newsletter_section">
-            <div class="ed_img_overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
-                                <div class="ed_newsletter_section_heading">
-                                    <h4>Let us inform you about everything important directly.</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                                <div class="row">
-                                    <div class="ed_newsletter_section_form">
-                                        <form class="form row m-0">
-                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                                                <input class="form-control" type="text"
-                                                    placeholder="Newsletter Email" />
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                                                <button class="btn ed_btn ed_green">confirm</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Newsletter Section six end-->
         <!--Footer Top section start-->
         <div class="ed_footer_wrapper">
             <div class="ed_footer_top">
@@ -199,34 +118,51 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <a href="index.html"><img src="{{ asset('images/footer/F_Logo.png') }}"
                                             alt="Footer Logo" /></a>
                                 </p>
-                                <p>Edution is an outstanding PSD template targeting educational institutions, helping
-                                    them establish strong identity on the internet without any real developing
-                                    knowledge.
+                                <p>Nous sommes à la recherche de personnes passionnées par l’innovation et l'éducation.
+                                    Si vous souhaitez rejoindre une équipe dynamique, engagée à transformer l’éducation
+                                    grâce à la technologie, Educ-AI est l’endroit parfait pour concrétiser vos ambitions
+                                    professionnelles. <br>
+                                    N'hésitez à nous rejoindre !
                                 </p>
                                 <div class="ed_sociallink">
                                     <ul>
-                                        <li><a href="javascript:void(0);" data-bs-toggle="tooltip"
-                                                data-placement="bottom" title="Facebook"><i class="fa fa-facebook"
-                                                    aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0);" data-bs-toggle="tooltip"
-                                                data-placement="bottom" title="Google+"><i class="fa fa-google-plus"
-                                                    aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0);" data-bs-toggle="tooltip"
-                                                data-placement="bottom" title="Twitter"><i class="fa fa-twitter"
-                                                    aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0);" data-bs-toggle="tooltip"
-                                                data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"
-                                                    aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0);" data-bs-toggle="tooltip"
-                                                data-placement="bottom" title="Whatsapp"><i class="fa fa-whatsapp"
-                                                    aria-hidden="true"></i></a></li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip"
+                                                data-placement="bottom" title="Facebook">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip"
+                                                data-placement="bottom" title="Google+">
+                                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip"
+                                                data-placement="bottom" title="Twitter">
+                                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip"
+                                                data-placement="bottom" title="Linkedin">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip"
+                                                data-placement="bottom" title="Whatsapp">
+                                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="widget text-widget">
-                                <h4 class="widget-title">find us</h4>
+                                <h4 class="widget-title">Retrouvez-nous</h4>
                                 <p><i class="fa fa-safari"></i>Wimbledon Street 42a, 45290 Wimbledon, <br />United
                                     Kingdom</p>
                                 <p><i class="fa fa-envelope-o"></i><a
@@ -237,13 +173,13 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="widget text-widget">
-                                <h4 class="widget-title">social media</h4>
-                                <p><strong>@education </strong> How many students do you educate monthly? Open <a
-                                        href="javascript:void(0);"> http://t.co/KFDdzLSD9</a><br />2 days ago</p>
+                                <h4 class="widget-title">Vous pouvez aussi voir</h4>
+                                <p><strong>@education </strong> Combien d'étudiants formez-vous chaque mois ? Ouvert<a
+                                        href="javascript:void(0);"> http://t.co/KFDdzLSD9</a><br />il y a 2 jours</p>
 
-                                <p><strong>@educationUK </strong> Web Design that works. Have a look at this
-                                    masterpiece. <a href="javascript:void(0);">http://t.co/9j8DH93zrO</a><br />5 days
-                                    ago</p>
+                                <p><strong>@educationUK </strong> Une conception Web qui fonctionne. Jetez un œil à ce
+                                    chef-d'œuvre. <a href="javascript:void(0);">http://t.co/9j8DH93zrO</a><br />il y a
+                                    5 jours</p>
                             </div>
                         </div>
                     </div>
@@ -258,15 +194,17 @@ Purchase: http://themeforest.net/user/kamleshyadav
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="ed_copy_right">
-                                <p>&copy; Copyright 2021, All Rights Reserved, <a href="javascript:void(0);">EDUCO</a>
+                                <p>&copy; Copyright 2024, Tous droits reservés, <a
+                                        href="javascript:void(0);">EDUC-AI</a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="ed_footer_menu">
                                 <ul>
-                                    <li><a href="index.html">home</a></li>
-                                    <li><a href="private_policy.html">private policy</a></li>
+                                    <li><a href="{{ route('index') }}">Accueil</a></li>
+                                    <li><a href="{{ route('braine.private_policy') }}">Politique de
+                                            confidentialité</a></li>
                                 </ul>
                             </div>
                         </div>

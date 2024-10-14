@@ -15,6 +15,7 @@ Route::get('/dashboard', function () {
 Route::get('/', [AccueilController::class, 'index'])->name('index');
 Route::prefix('/')->name("braine.")->group(function () {
     Route::get('/inscrivez-vous', [AccueilController::class, 'register'])->name('register');
+    Route::get('/politique-de-confidentialité', [AccueilController::class, 'private_policy'])->name('private_policy');
 });
 
 
