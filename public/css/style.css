@@ -1,0 +1,12 @@
+.service-block_one-inner::before {
+    position: absolute;
+    content: '';
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: rgba(var(--color-seven-rgb), 1);
+    background: linear-gradient(to bottom, rgba(var(--color-seven-rgb), 1) 0%, rgba(var(--white-color-rgb), 0) 100%);
+}
