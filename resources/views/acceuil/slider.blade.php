@@ -67,21 +67,6 @@
                                     </div>
 
                                     <!-- LAYER NR. 4 -->
-                                    <a href="course_single.html"
-                                        class="tp-caption Newspaper-Button rev-btn  ed_btn ed_green rs-parallaxlevel-0"
-                                        id="slide-274-layer-4" data-x="['center','center','center','center']"
-                                        data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                                        data-voffset="['140','100','100','95']" data-width="none" data-height="none"
-                                        data-whitespace="nowrap" data-transform_idle="o:1;"
-                                        data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
-                                        data-transform_out="y:50px;opacity:0;s:1000;s:1000;" data-start="3500"
-                                        data-splitin="none" data-splitout="none"
-                                        data-actions='[{"event":"click","action":"scrollbelow","offset":"px"}]'
-                                        data-responsive_offset="on" data-responsive="off"
-                                        style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;padding: 0px 35px;">
-                                        Commencer Maintenant
-                                    </a>
-
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption Newspaper-Subtitle   tp-resizeme rs-parallaxlevel-0"
                                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"

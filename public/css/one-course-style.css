@@ -15,7 +15,7 @@ Assigned to:	Themeforest
 3. Header Top / #educo_wrapper
 4. Header Bottom / .ed_header_bottom
 5. Main Menu / .edoco_menu
-6. Sub Menu / .edoco_menu ul li ul 
+6. Sub Menu / .edoco_menu ul li ul
 7. Main Slider / .ed_slider_form_section
 8. Search form/ .ed_form_box
 9. Populer Areas Section / .ed_transprentbg
@@ -38,7 +38,7 @@ Assigned to:	Themeforest
 26. Course Page / .ed_courses
 27. Contact Page / .ed_contact_form
 28. Error Page / .ed_error_wrapper
-29. Custom Radio Button And Check Box /.custom-checkbox 
+29. Custom Radio Button And Check Box /.custom-checkbox
 30. Instructor Single Page / .ed_dashboard_wrapper
 31. Student Detail Page / .ed_dashboard_tab_info
 32. Become Teacher Page / .ed_teacher_div
@@ -796,7 +796,7 @@ textarea:focus {
     text-transform: capitalize;
 }
 
-.ed_search_form .ed_orange {}
+/* .ed_search_form .ed_orange {} */
 
 .ed_btn {
     border-radius: 3px;
@@ -889,7 +889,7 @@ textarea:focus {
 .ed_heading_top h3 {
     position: relative;
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 100%;
     margin: 0px;
     padding-bottom: 15px;
@@ -996,7 +996,7 @@ textarea:focus {
     transition: all 0.3s ease;
 }
 
-.ed_item_img img:hover {}
+/* .ed_item_img img:hover {} */
 
 .ed_item_img:after {
     content: "";
@@ -2331,7 +2331,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_team_member_img:hover img {}
+/* .ed_team_member_img:hover img {} */
 
 .ed_team_member_description {
     float: left;
@@ -2437,7 +2437,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_blog_image:hover img {}
+/* .ed_blog_image:hover img {} */
 
 .ed_blog_image img {
     width: 100%;
@@ -3824,7 +3824,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_event_wrapper_item_img:hover img {}
+/* .ed_event_wrapper_item_img:hover img {} */
 
 .ed_event_wrapper_item_img iframe {
     width: 100%;

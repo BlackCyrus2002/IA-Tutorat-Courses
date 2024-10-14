@@ -40,31 +40,14 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <!--Page main section start-->
     <div id="educo_wrapper">
         <!--Header start-->
-        <header id="ed_header_wrapper">
+        <header class="position-relative" id="ed_header_wrapper">
             <div class="ed_header_top">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
-                            <p>Bienvenue sur EDUC-AI</p>
-                            <div class="ed_info_wrapper">
-                                <a href="javascript:void(0);" id="login_button">Se connecter</a>
-                                <div id="login_one" class="ed_login_form">
-                                    <h3>Se connecter</h3>
-                                    <form class="form" action="{{ route('dashboard.dashboard') }}" method="GET">
-                                        <div class="form-group">
-                                            <label class="control-label">Email :</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label">Mot de passe :</label>
-                                            <input type="password" class="form-control">
-                                        </div>
-                                        <div class="form-group">
-                                            <button type="submit">Se connecter</button>
-                                            <a href="{{ route('braine.register') }}">S'enregistrer</a>
-                                        </div>
-                                    </form>
-                                </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p>Bienvenue sur EDUC-AI</p>
+                                <a href="{{ route('login') }}" class="btn btn-light">Se connecter</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +59,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-12">
                             <div class="educo_logo">
                                 <a href="{{ route('index') }}"><img src="{{ asset('images/header/logo.png') }}"
-                                        alt="logo" /></a>
+                                alt="logo" /></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-2 col-md-1 col-sm-12 col-12">
