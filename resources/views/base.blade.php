@@ -25,6 +25,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
 
     <!--srart theme style -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/one-course-style.css') }}" rel="stylesheet" type="text/css" />
     <!-- end theme style -->
     <!-- favicon links -->
@@ -78,10 +79,10 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             <div class="main-menu-container">
                                 <div class="main-menu">
                                     <ul id="desktop-nav">
-                                        <li class="active"><a href="{{ route('index') }}#home">home</a></li>
-                                        <li><a href="{{ route('index') }}#about">about us</a></li>
+                                        <li class="active"><a href="{{ route('index') }}#home">Accueil</a></li>
+                                        <li><a href="{{ route('index') }}#about">Nos formations</a></li>
                                         <li><a href="{{ route('index') }}#features">features</a></li>
-                                        <li><a href="{{ route('index') }}#contact">Contact</a></li>
+                                        <li><a href="{{ route('index') }}#contact">Nous contacter</a></li>
                                     </ul>
                                 </div>
                             </div>

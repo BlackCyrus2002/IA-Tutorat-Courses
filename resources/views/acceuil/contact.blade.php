@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-lg-7 col-md-7 col-sm-12 col-12">
                                 <div class="ed_newsletter_section_heading">
-                                    <h4>Laissez-nous vous informer directement sur tout ce qui est important.</h4>
+                                    <h4>Entrez vos email pour ne rien manquer des nouveautés.</h4>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-12 col-12">
@@ -15,10 +15,11 @@
                                     <div class="ed_newsletter_section_form">
                                         <form class="form row m-0">
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                                                <input class="form-control" type="text" placeholder="Votre Email" />
+                                                <input class="form-control" type="text"
+                                                    placeholder="Nouveauté Email" />
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                                                <button class="btn ed_btn ed_green">Confirmer</button>
+                                                <button class="btn ed_btn ed_green">S'inscrire</button>
                                             </div>
                                         </form>
                                     </div>

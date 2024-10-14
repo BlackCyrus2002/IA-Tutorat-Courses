@@ -1,3 +1,5 @@
+{{-- Ligne 82 Bouton commencer --}}
+
 <div class="ed_slider_form_section" id="home">
         <!--Slider start-->
         <section class="ed_mainslider">
@@ -47,7 +49,7 @@
                                         data-start="1600" data-splitin="chars" data-splitout="none"
                                         data-responsive_offset="on"
                                         style="z-index: 6; min-width: 721px; max-width: 721px; white-space: normal;text-align:center; font-size: 80px; color:#fff;     font-family: 'Trirong', serif;     text-transform: uppercase;">
-                                        online education
+                                        Cours en Ligne basé sur L'IA
                                     </div>
 
                                     <!-- LAYER NR. 3 -->
@@ -61,7 +63,7 @@
                                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="900"
                                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
                                         style="z-index: 7; white-space: nowrap; font-size: 30px; color:#fff;     text-transform: capitalize; font-style: italic;">
-                                        get start...
+                                        {{-- get start... --}}
                                     </div>
 
                                     <!-- LAYER NR. 4 -->
@@ -76,8 +78,8 @@
                                         data-splitin="none" data-splitout="none"
                                         data-actions='[{"event":"click","action":"scrollbelow","offset":"px"}]'
                                         data-responsive_offset="on" data-responsive="off"
-                                        style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;     padding: 0px 35px;">join
-                                        now
+                                        style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;padding: 0px 35px;">
+                                        Commencer Maintenant
                                     </a>
 
                                     <!-- LAYER NR. 3 -->
@@ -90,8 +92,7 @@
                                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-start="2500"
                                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
-                                        style="z-index: 7; white-space: nowrap; font-size: 30px; color:#fff;     text-transform: capitalize;">
-                                        course only £25
+                                        style="z-index: 7; white-space: nowrap; font-size: 30px; color:#fff;text-transform: capitalize;">
                                     </div>
 
                                 </li>
