@@ -11,7 +11,22 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('chapitre_enseignants', function (Blueprint $table) {
+
+            $table->foreignUuid("chapitre_id")
+            ->references("id")
+            ->on("chapitre")
+            ->cascadeOnDelete();
+
+            $table->foreignUuid("enseignant_id")
+            ->references("id")
+            ->on("users")
+            ->cascadeOnDelete();
+
+            $table->timestamps();
+
+            $table->primary(["leçon_id", "enseignant_id"]);
+        });
     }
 
     /**
