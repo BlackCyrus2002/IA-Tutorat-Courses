@@ -14,14 +14,14 @@ return new class extends Migration
         Schema::create('exercice_enseignants', function (Blueprint $table) {
 
             $table->foreignUuid("exercice_id")
-            ->references("id")
-            ->on("exercices")
-            ->cascadeOnDelete();
+                ->references("id")
+                ->on("exercices")
+                ->cascadeOnDelete();
 
             $table->foreignUuid("enseignant_id")
-            ->references("id")
-            ->on("users")
-            ->cascadeOnDelete();
+                ->references("id")
+                ->on("users")
+                ->cascadeOnDelete();
 
             $table->timestamps();
 
