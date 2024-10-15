@@ -15,7 +15,7 @@ return new class extends Migration
 
             $table->foreignUuid("exercice_id")
             ->references("id")
-            ->on("exercice_id")
+            ->on("exercices")
             ->cascadeOnDelete();
 
             $table->foreignUuid("enseignant_id")

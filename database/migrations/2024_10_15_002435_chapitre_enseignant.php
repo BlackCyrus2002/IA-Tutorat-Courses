@@ -15,7 +15,7 @@ return new class extends Migration
 
             $table->foreignUuid("chapitre_id")
             ->references("id")
-            ->on("chapitre")
+            ->on("chapitres")
             ->cascadeOnDelete();
 
             $table->foreignUuid("enseignant_id")
@@ -25,7 +25,7 @@ return new class extends Migration
 
             $table->timestamps();
 
-            $table->primary(["leçon_id", "enseignant_id"]);
+            $table->primary(["chapitre_id", "enseignant_id"]);
         });
     }
 
