@@ -12,6 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table("cours", function(Blueprint $table){
+            $table->foreignUuid("sous_categorie_id")
+            ->references("id")
+            ->on("sous_categories")
+            ->cascadeOnDelete();
+        });
+
+        Schema::table("sous_categories", function(Blueprint $table){
             $table->foreignUuid("categorie_id")
             ->references("id")
             ->on("categorie_cours")
