@@ -13,4 +13,27 @@ class CategorieCours extends Model
         $this->hasMany(Cours::class);
     }
 
+    protected $guarded = [];
+
+    public $incrementing = false;
+    protected $keyType = "string";
+
+    protected static function booted(){
+        static::creating( function($formation){
+
+            if(empty($formation->id)){
+                $formation->id = (string) \Illuminate\Support\Str::uuid();
+            }
+
+        });
+    }
+
+    public function imageUrl(){
+        return \Illuminate\Support\Facades\Storage::url($this->image);
+    }
+
+    public function user(){
+        $this->belongsTo(User::class);
+    }
+
 }
