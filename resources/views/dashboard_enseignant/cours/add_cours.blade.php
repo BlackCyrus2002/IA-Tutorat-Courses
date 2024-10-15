@@ -69,40 +69,12 @@
 
                                 </div>
                             </div>
+
                             <div>
-                                <h3 style="font-weight: bold;text-decoration:underline">Informations de connexion</h3>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Email :</label>
-                                <input type="email" class="form-control" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Password :</label>
-                                <input type="password" class="form-control" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Confirm Password :</label>
-                                <input type="password" class="form-control" required>
-                            </div>
-                            <div style="display: flex;align-items:center">
-                                <input type="checkbox" name="" id="" style="margin-right: 10px">
-                                <label for="">
-                                    j'ai lu la <a href="#" style="color: purple;font-weight:bold">régles</a> et la
-                                    <a href="#" style="color: purple;font-weight:bold">politique de
-                                        confidentialité</a>
-                                </label>
-                            </div><br>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <p>Vous avez déjà un compte?<br>
-                                        <a href="{{ route('login') }}" style="color: purple;font-weight:bold">
-                                            Connectez-vous
-                                        </a>
-                                    </p>
-                                </div>
-                                <div class="col-sm-4">
-                                    <a href="javascript:void(0);" class="btn ed_btn ed_orange pull-right">Inscription</a>
-                                </div>
+                                <center>
+                                    <button type="submit" class="btn ed_btn ed_orange pull-right"
+                                        style="text-transform: none">Ajouter le cour</button>
+                                </center>
                             </div>
                         </form>
                     </div>
@@ -110,16 +82,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        function previewImage(event) {
-            var reader = new FileReader();
-            reader.onload = function() {
-                var preview = document.getElementById("preview");
-                preview.src = reader.result;
-            };
-            reader.readAsDataURL(event.target.files[0]);
-        }
-    </script>
 
 @endsection
