@@ -46,19 +46,27 @@ class User extends Authenticatable
         ];
     }
 
-    public function Cours(){
-       return $this->belongsToMany(Cours::class);
+    public function Cours()
+    {
+        return $this->belongsToMany(Cours::class);
     }
 
-    public function Chapitre(){
-       return $this->belongsToMany(Chapitre::class);
+    public function Chapitre()
+    {
+        return $this->belongsToMany(Chapitre::class);
     }
 
-    public function Leçons(){
-       return $this->belongsToMany(Leçon::class);
+    public function Leçons()
+    {
+        return $this->belongsToMany(Leçon::class);
     }
 
-    public function CategorieCours(){
-       return $this->belongsToMany(CategorieCours::class);
+    public function CategorieCours()
+    {
+        return $this->belongsToMany(CategorieCours::class);
+    }
+    public function Etudiants()
+    {
+        return $this->hasMany(Etudiant::class);
     }
 }

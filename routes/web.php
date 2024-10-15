@@ -16,7 +16,8 @@ Route::prefix('/')->name("braine.")->group(function () {
     Route::get('/politique-de-confidentialité', [AccueilController::class, 'private_policy'])->name('private_policy');
 });
 Route::prefix('/')->name("dashboard.")->group(function () {
-    Route::get('/Tableau-de-bord', [DashboardController::class, 'dashboard'])->name('dashboard');
+    Route::get('/tableau-de-bord', [DashboardController::class, 'dashboard'])->name('dashboard');
+    Route::get('/cour-suivie', [DashboardController::class, 'cour_suivie'])->name('cour_suivie');
 });
 
 

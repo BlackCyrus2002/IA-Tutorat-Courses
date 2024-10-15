@@ -50,11 +50,10 @@ Assigned to:	Themeforest
 38. Responsive Css / .edoco_menu
 */
 
-
 /*--------- Body Strat -------*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #717171;
@@ -64,14 +63,15 @@ body {
 @font-face {
     font-family: star;
     src: url(../fonts/star.eot);
-    src: url(../fonts/star.eot?#iefix) format('embedded-opentype'), url(../fonts/star.woff) format('woff'), url(../fonts/star.ttf) format('truetype'), url(../fonts/star.svg#star) format('svg');
+    src: url(../fonts/star.eot?#iefix) format("embedded-opentype"),
+        url(../fonts/star.woff) format("woff"),
+        url(../fonts/star.ttf) format("truetype"),
+        url(../fonts/star.svg#star) format("svg");
     font-weight: 400;
     font-style: normal;
 }
 
-
 /*--------- Body End -------*/
-
 
 /*---------- Normal css start -------*/
 
@@ -102,7 +102,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
     font-weight: 400;
     line-height: 1.1;
     color: #202020;
@@ -214,9 +214,7 @@ textarea:focus {
     padding-bottom: 100px;
 }
 
-
 /*---------- Normal css end -------*/
-
 
 /*---------- Header Top start ----------*/
 
@@ -325,9 +323,7 @@ textarea:focus {
     transition: all 0.3s;
 }
 
-
 /*--------- Header Top end -----------*/
-
 
 /*----------- Header Bottom start ---------*/
 
@@ -399,9 +395,7 @@ textarea:focus {
     overflow: inherit;
 }
 
-
 /*------ Header Bottom end -----------*/
-
 
 /*--------menu start----------*/
 
@@ -420,7 +414,7 @@ textarea:focus {
 .edoco_menu ul li {
     display: inline-block;
     position: relative;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .edoco_menu ul li a {
@@ -455,9 +449,7 @@ textarea:focus {
     color: #eb7f1c;
 }
 
-
 /*---------------------menu end---------------------*/
-
 
 /*------------------Sub menu start-----------------*/
 
@@ -517,9 +509,7 @@ textarea:focus {
     border-bottom: 1px solid #fff;
 }
 
-
 /*------------------Sub menu end-----------------*/
-
 
 /*------------------Sub menu --Sub menu start-----------------*/
 
@@ -554,9 +544,7 @@ textarea:focus {
     transition: all 0.3s ease-in-out;
 }
 
-
 /*------------------Sub menu --Sub menu end-----------------*/
-
 
 /*------------------Sub menu --Sub menu --Sub menu start-----------------*/
 
@@ -611,9 +599,7 @@ textarea:focus {
     transition: all 0.3s ease-in-out;
 }
 
-
 /*------------------Sub menu --Sub menu --Sub menu end-----------------*/
-
 
 /*---------- Slider start ---------*/
 
@@ -623,9 +609,7 @@ textarea:focus {
     position: relative;
 }
 
-
 /*--------- Slider end ---------*/
-
 
 /*--------- Search form start --------*/
 
@@ -692,7 +676,7 @@ textarea:focus {
 }
 
 .ed_btn {
-    border-radius: 0;
+    border-radius: 10px;
     padding: 12px 44px;
     text-transform: capitalize;
     overflow: hidden;
@@ -702,12 +686,12 @@ textarea:focus {
     z-index: 1;
     border: none;
     border-radius: 3px;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .ed_btn::before,
 .ed_btn::after {
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -764,9 +748,7 @@ textarea:focus {
     transition: all 0.3s;
 }
 
-
 /*--------- Search form end ---------*/
-
 
 /*-------- Populer Areas Section start --------*/
 
@@ -873,7 +855,7 @@ textarea:focus {
     font-weight: bold;
 }
 
-.ed_populer_areas_slider .owl-theme .owl-nav [class*='owl-'] {
+.ed_populer_areas_slider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     font-size: 20px;
@@ -962,7 +944,8 @@ textarea:focus {
     transition: all 0.3s ease;
 }
 
-.ed_item_img img:hover {}
+.ed_item_img img:hover {
+}
 
 .ed_populer_areas_slider .ed_item_description {
     float: left;
@@ -1012,9 +995,7 @@ a.ed_getinvolved:hover i {
     padding-left: 5px;
 }
 
-
 /*---------- Populer areas section end ------*/
-
 
 /*-------- our skill section start -----*/
 
@@ -1109,9 +1090,7 @@ a.ed_getinvolved:hover i {
     padding-left: 5px;
 }
 
-
 /*------- our skill section end ---------*/
-
 
 /*-------- Video section start ---------*/
 
@@ -1209,9 +1188,7 @@ a.ed_getinvolved:hover i {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 /*-------- Video section end ---------*/
-
 
 /*---------- most recent course section start ----------*/
 
@@ -1272,7 +1249,7 @@ a.ed_getinvolved:hover i {
     font-weight: bold;
 }
 
-.ed_mostrecomeded_course_slider .owl-theme .owl-nav [class*='owl-'] {
+.ed_mostrecomeded_course_slider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     font-size: 20px;
@@ -1425,7 +1402,7 @@ a.ed_getinvolved:hover i {
 
 .star-rating:before {
     content: "\53\53\53\53\53";
-    color: #EAEAEA;
+    color: #eaeaea;
     float: left;
     top: 0;
     left: 0;
@@ -1441,9 +1418,7 @@ a.ed_getinvolved:hover i {
     color: #eb7f1c;
 }
 
-
 /*---------- most recent course section end ----------*/
-
 
 /*----------- latest news start -------*/
 
@@ -1506,7 +1481,7 @@ a.ed_getinvolved:hover i {
     font-weight: bold;
 }
 
-.ed_latest_news_slider .owl-theme .owl-nav [class*='owl-'] {
+.ed_latest_news_slider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     font-size: 20px;
@@ -1555,9 +1530,7 @@ a.ed_getinvolved:hover i {
     padding-left: 10px;
 }
 
-
 /*----------- latest news end -------*/
-
 
 /*------- newsletter section start ------*/
 
@@ -1613,9 +1586,7 @@ a.ed_getinvolved:hover i {
     text-transform: capitalize;
 }
 
-
 /*------- newsletter section end ------*/
-
 
 /*------- Footer top start --------*/
 
@@ -1715,12 +1686,12 @@ a.ed_getinvolved:hover i {
     left: 0%;
     width: 70px;
     height: 2px;
-    background-color: #CACACA;
+    background-color: #cacaca;
     margin: 8px auto;
 }
 
 .text-widget p {
-    color: #CACACA;
+    color: #cacaca;
     margin-bottom: 25px;
 }
 
@@ -1730,7 +1701,7 @@ a.ed_getinvolved:hover i {
 }
 
 .text-widget p a {
-    color: #CACACA;
+    color: #cacaca;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -1757,9 +1728,7 @@ a.ed_getinvolved:hover i {
     color: #ffffff;
 }
 
-
 /*-------- Footer top end ---------*/
-
 
 /*--------- Footer bottom start ---------*/
 
@@ -1780,7 +1749,7 @@ a.ed_getinvolved:hover i {
     color: #fff;
     font-size: 15px;
     margin: 0px;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .ed_copy_right p a {
@@ -1818,7 +1787,7 @@ a.ed_getinvolved:hover i {
     float: left;
     list-style: none;
     margin: 0px 15px;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
 }
 
 .ed_footer_menu ul li:first-child {
@@ -1850,9 +1819,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*------- Footer bottom end --------*/
-
 
 /*----Breadcrumb Start-----------*/
 
@@ -1901,7 +1868,7 @@ a.ed_getinvolved:hover i {
     padding: 0px 10px;
     text-decoration: none;
     text-transform: capitalize;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1931,13 +1898,11 @@ a.ed_getinvolved:hover i {
     font-size: 21px;
 }
 
-.ed_pagetitle ul.breadcrumb>li+li:before {
+.ed_pagetitle ul.breadcrumb > li + li:before {
     display: none;
 }
 
-
 /*--------Breadcrumb End-----------*/
-
 
 /*----------- index2 start -------*/
 
@@ -2067,7 +2032,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_latest_newsslider .owl-theme .owl-nav [class*='owl-'] {
+.ed_latest_newsslider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     display: none;
@@ -2132,7 +2097,8 @@ a.ed_getinvolved:hover i {
     text-align: center;
 }
 
-.ed_clientslider .owl-carousel {}
+.ed_clientslider .owl-carousel {
+}
 
 .ed_clientslider .owl-carousel .owl-nav .owl-prev {
     top: -25%;
@@ -2174,7 +2140,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_clientslider .owl-theme .owl-nav [class*='owl-'] {
+.ed_clientslider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     display: none;
@@ -2185,9 +2151,7 @@ a.ed_getinvolved:hover i {
     display: inline-block;
 }
 
-
 /*----------- index2 end -------*/
-
 
 /*-------- About page start -------*/
 
@@ -2309,7 +2273,8 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_team_member_img:hover img {}
+.ed_team_member_img:hover img {
+}
 
 .ed_team_member_description {
     float: left;
@@ -2359,9 +2324,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-
 /*-------- About page end -------*/
-
 
 /*------- blog page start -------*/
 
@@ -2415,7 +2378,8 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_blog_image:hover img {}
+.ed_blog_image:hover img {
+}
 
 .ed_blog_image img {
     width: 100%;
@@ -2524,9 +2488,7 @@ a.ed_getinvolved:hover i {
     float: left;
 }
 
-
 /*------- blog page end -------*/
-
 
 /*------- blog Single page start -------*/
 
@@ -2538,7 +2500,7 @@ a.ed_getinvolved:hover i {
     border-left: 5px solid #eb7f1c;
     color: #272727;
     font-style: italic;
-    font-family: 'Trirong', serif;
+    font-family: "Trirong", serif;
 }
 
 .ed_blog_tags {
@@ -2829,9 +2791,7 @@ a.ed_getinvolved:hover i {
     margin-top: 15px;
 }
 
-
 /*------- blog Single page end -------*/
-
 
 /*------- sidebar start ---------*/
 
@@ -3360,7 +3320,7 @@ a.ed_getinvolved:hover i {
 }
 
 .widget.widget_cart .course_single_info .purchase_title a {
-    color: #E80000;
+    color: #e80000;
 }
 
 .widget.widget_cart .course_single_info p {
@@ -3467,7 +3427,7 @@ a.ed_getinvolved:hover i {
     margin-bottom: 10px;
 }
 
-.ed_sidebar_slider .owl-theme .owl-nav [class*='owl-'] {
+.ed_sidebar_slider .owl-theme .owl-nav [class*="owl-"] {
     color: #000;
     padding: 0px 0px;
     font-size: 20px;
@@ -3550,9 +3510,36 @@ a.ed_getinvolved:hover i {
 
 .widget_progress_bar .progress-striped .progress-bar,
 .progress-bar-striped {
-    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: linear-gradient(-45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image: -o-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image: linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+    );
     -webkit-background-size: 40px 40px;
     background-size: 40px 40px;
 }
@@ -3562,9 +3549,7 @@ a.ed_getinvolved:hover i {
     padding: 5px 10px;
 }
 
-
 /*------- sidebar end ---------*/
-
 
 /*------- pagination start ---------*/
 
@@ -3578,8 +3563,8 @@ a.ed_getinvolved:hover i {
     border-radius: 0px;
 }
 
-.ed_blog_bottom_pagination .pagination>li:first-child>a,
-.pagination>li:first-child>span {
+.ed_blog_bottom_pagination .pagination > li:first-child > a,
+.pagination > li:first-child > span {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     -webkit-transition: all 0.3s;
@@ -3589,18 +3574,18 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_blog_bottom_pagination .pagination>li:last-child>a,
-.pagination>li:last-child>span {
+.ed_blog_bottom_pagination .pagination > li:last-child > a,
+.pagination > li:last-child > span {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
-.ed_blog_bottom_pagination .pagination>.active>a,
-.pagination>.active>span,
-.pagination>.active>a:hover,
-.pagination>.active>span:hover,
-.pagination>.active>a:focus,
-.pagination>.active>span:focus {
+.ed_blog_bottom_pagination .pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
     cursor: pointer;
     background-color: #eb7f1c;
     color: #ffffff;
@@ -3608,8 +3593,8 @@ a.ed_getinvolved:hover i {
     padding: 7px 21px;
 }
 
-.ed_blog_bottom_pagination .pagination>li>a,
-.pagination>li>span {
+.ed_blog_bottom_pagination .pagination > li > a,
+.pagination > li > span {
     padding: 7px 21px;
     border-radius: 3px;
     color: #eb7f1c;
@@ -3622,7 +3607,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_blog_bottom_pagination .pagination>li>a:hover {
+.ed_blog_bottom_pagination .pagination > li > a:hover {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -3630,10 +3615,10 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_blog_bottom_pagination .pagination>li>a:hover,
-.pagination>li>span:hover,
-.pagination>li>a:focus,
-.pagination>li>span:focus {
+.ed_blog_bottom_pagination .pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
     z-index: 3;
     color: #ffffff;
     background-color: #eb7f1c;
@@ -3645,9 +3630,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*------- pagination end ---------*/
-
 
 /*------- event page start ---------*/
 
@@ -3692,7 +3675,7 @@ a.ed_getinvolved:hover i {
     left: 15px;
     width: 79px;
     z-index: 1;
-    background-color: #000
+    background-color: #000;
 }
 
 .ed_custom_select_box_options li {
@@ -3836,7 +3819,8 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_event_wrapper_item_img:hover img {}
+.ed_event_wrapper_item_img:hover img {
+}
 
 .ed_event_wrapper_item_img iframe {
     width: 100%;
@@ -3962,9 +3946,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*------- event page end ---------*/
-
 
 /*------- event single page start ---------*/
 
@@ -4149,7 +4131,7 @@ a.ed_getinvolved:hover i {
 
 #invitation_form .modal-content .form-group label {
     color: #272727;
-    font-family: 'Trirong', serif;
+    font-family: "Trirong", serif;
     font-size: 13px;
 }
 
@@ -4164,9 +4146,7 @@ a.ed_getinvolved:hover i {
     outline: none;
 }
 
-
 /*------- event single page end ---------*/
-
 
 /*------- course page start ---------*/
 
@@ -4192,9 +4172,7 @@ a.ed_getinvolved:hover i {
     margin-top: 30px;
 }
 
-
 /*------- course page end ---------*/
-
 
 /*------- contact page end ---------*/
 
@@ -4219,7 +4197,7 @@ a.ed_getinvolved:hover i {
 
 .ed_contact_form label {
     color: #272727;
-    font-family: 'Trirong', serif;
+    font-family: "Trirong", serif;
     font-size: 13px;
 }
 
@@ -4239,9 +4217,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*------- contact page end ---------*/
-
 
 /*------- Error Page start ---------*/
 
@@ -4286,9 +4262,7 @@ a.ed_getinvolved:hover i {
     width: auto;
 }
 
-
 /*------- Error Page end ---------*/
-
 
 /*---------- custom radio button and check box start --------*/
 
@@ -4298,7 +4272,7 @@ a.ed_getinvolved:hover i {
     float: right;
 }
 
-.custom-checkbox input[type=checkbox],
+.custom-checkbox input[type="checkbox"],
 .custom-checkbox input[type="radio"] {
     visibility: hidden;
 }
@@ -4318,7 +4292,7 @@ a.ed_getinvolved:hover i {
 
 .custom-checkbox label:after {
     opacity: 0.2;
-    content: '';
+    content: "";
     position: absolute;
     width: 10px;
     height: 5px;
@@ -4335,14 +4309,12 @@ a.ed_getinvolved:hover i {
     transform: rotate(-45deg);
 }
 
-.custom-checkbox input[type=checkbox]:checked+label:after,
-.custom-checkbox input[type="radio"]:checked+label:after {
+.custom-checkbox input[type="checkbox"]:checked + label:after,
+.custom-checkbox input[type="radio"]:checked + label:after {
     opacity: 1;
 }
 
-
 /*---------- custom radio button and check box end --------*/
-
 
 /*------ instructor Single Page Start --------- */
 
@@ -4393,37 +4365,37 @@ a.ed_getinvolved:hover i {
     width: 100%;
 }
 
-.ed_dashboard_tab .ed_tabs_left>.nav-tabs {
+.ed_dashboard_tab .ed_tabs_left > .nav-tabs {
     border-bottom: 0;
 }
 
-.tab-content>.tab-pane,
-.pill-content>.pill-pane {
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
     display: none;
 }
 
-.tab-content>.active,
-.pill-content>.active {
+.tab-content > .active,
+.pill-content > .active {
     display: block;
 }
 
-.ed_tabs_left>.nav-tabs>li {
+.ed_tabs_left > .nav-tabs > li {
     float: none;
     border-bottom: 1px solid #ddd;
     margin-bottom: 0px;
 }
 
-.ed_tabs_left>.nav-tabs>li:last-child {
+.ed_tabs_left > .nav-tabs > li:last-child {
     border-bottom: none;
 }
 
-.ed_tabs_left>.nav-tabs>li>a {
+.ed_tabs_left > .nav-tabs > li > a {
     min-width: 74px;
     margin-right: 0;
     margin-bottom: 3px;
 }
 
-.ed_tabs_left>.nav-tabs {
+.ed_tabs_left > .nav-tabs {
     float: left;
     width: 100%;
     margin-right: 0px;
@@ -4431,7 +4403,7 @@ a.ed_getinvolved:hover i {
     border-top: 1px solid #ddd;
 }
 
-.ed_tabs_left>.nav-tabs>li>a {
+.ed_tabs_left > .nav-tabs > li > a {
     margin-right: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -4448,7 +4420,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_tabs_left>.nav-tabs>li>a span {
+.ed_tabs_left > .nav-tabs > li > a span {
     float: right;
     border: 1px solid;
     border-radius: 3px;
@@ -4457,8 +4429,8 @@ a.ed_getinvolved:hover i {
     color: #ffffff;
 }
 
-.ed_tabs_left>.nav-tabs>li>a:hover,
-.ed_tabs_left>.nav-tabs>li>a:focus {
+.ed_tabs_left > .nav-tabs > li > a:hover,
+.ed_tabs_left > .nav-tabs > li > a:focus {
     border-color: transparent;
     color: #ffffff;
     background-color: #eb7f1c;
@@ -4469,9 +4441,9 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_tabs_left>.nav-tabs .active>a,
-.ed_tabs_left>.nav-tabs .active>a:hover,
-.ed_tabs_left>.nav-tabs .active>a:focus {
+.ed_tabs_left > .nav-tabs .active > a,
+.ed_tabs_left > .nav-tabs .active > a:hover,
+.ed_tabs_left > .nav-tabs .active > a:focus {
     border-color: transparent;
     color: #ffffff;
     border: 1px solid #eb7f1c;
@@ -4501,11 +4473,11 @@ a.ed_getinvolved:hover i {
     border: 1px solid #ddd;
 }
 
-.ed_dashboard_inner_tab .nav-tabs>li {
+.ed_dashboard_inner_tab .nav-tabs > li {
     margin: 0px;
 }
 
-.ed_dashboard_inner_tab .nav-tabs>li>a {
+.ed_dashboard_inner_tab .nav-tabs > li > a {
     border-radius: 0px;
     text-transform: uppercase;
     margin: 0px;
@@ -4518,9 +4490,9 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_dashboard_inner_tab .nav-tabs>li.active>a,
-.ed_dashboard_inner_tab .nav-tabs>li.active>a:hover,
-.ed_dashboard_inner_tab .nav-tabs>li.active>a:focus {
+.ed_dashboard_inner_tab .nav-tabs > li.active > a,
+.ed_dashboard_inner_tab .nav-tabs > li.active > a:hover,
+.ed_dashboard_inner_tab .nav-tabs > li.active > a:focus {
     color: #ffffff;
     border: 1px solid #eb7f1c;
     background-color: #eb7f1c;
@@ -4531,8 +4503,8 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_dashboard_inner_tab .nav>li>a:hover,
-.ed_dashboard_inner_tab .nav>li>a:focus {
+.ed_dashboard_inner_tab .nav > li > a:hover,
+.ed_dashboard_inner_tab .nav > li > a:focus {
     color: #ffffff;
     border: 1px solid #eb7f1c;
     background-color: #eb7f1c;
@@ -4543,9 +4515,9 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_dashboard_inner_tab .nav .open>a,
-.ed_dashboard_inner_tab .nav .open>a:hover,
-.ed_dashboard_inner_tab .nav .open>a:focus {
+.ed_dashboard_inner_tab .nav .open > a,
+.ed_dashboard_inner_tab .nav .open > a:hover,
+.ed_dashboard_inner_tab .nav .open > a:focus {
     background-color: #eb7f1c;
     border-color: #eb7f1c;
     color: #ffffff;
@@ -4669,9 +4641,7 @@ a.ed_getinvolved:hover i {
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
 }
 
-
 /*------ instructor Single Page end --------- */
-
 
 /*--------- student detail page start -------*/
 
@@ -4749,9 +4719,7 @@ a.ed_getinvolved:hover i {
     box-shadow: none;
 }
 
-
 /*--------- student detail page end -------*/
-
 
 /*------ become teacher page start --------*/
 
@@ -4797,7 +4765,7 @@ a.ed_getinvolved:hover i {
 
 .ed_teacher_form .form-group label {
     color: #272727;
-    font-family: 'Trirong', serif;
+    font-family: "Trirong", serif;
     font-size: 13px;
 }
 
@@ -4812,9 +4780,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*------ become teacher page end --------*/
-
 
 /*------- cart page start ------*/
 
@@ -4841,7 +4807,7 @@ a.ed_getinvolved:hover i {
 }
 
 .woo-cart-table tbody tr td a {
-    color: #E80000;
+    color: #e80000;
     font-weight: bold;
     text-decoration: none;
 }
@@ -4918,9 +4884,7 @@ a.ed_getinvolved:hover i {
     width: auto;
 }
 
-
 /*------- cart page end ------*/
-
 
 /*----- checkout page start ---------*/
 
@@ -4941,7 +4905,7 @@ a.ed_getinvolved:hover i {
 
 .checkout.woocommerce-checkout h3.checkout-heading:after {
     position: absolute;
-    content: '';
+    content: "";
     width: 50px;
     height: 2px;
     background-color: #eb7f1c;
@@ -4951,7 +4915,7 @@ a.ed_getinvolved:hover i {
 
 .checkout.woocommerce-checkout .form-group label {
     color: #272727;
-    font-family: 'Trirong', serif;
+    font-family: "Trirong", serif;
     font-size: 13px;
 }
 
@@ -5013,20 +4977,27 @@ a.ed_getinvolved:hover i {
     width: 30px;
 }
 
-.woocommerce-checkout-payment ul.payment_methods.methods li .ed_rate .custom-checkbox {
+.woocommerce-checkout-payment
+    ul.payment_methods.methods
+    li
+    .ed_rate
+    .custom-checkbox {
     float: left;
 }
 
-.woocommerce-checkout-payment ul.payment_methods.methods li .ed_rate .custom-checkbox label {
+.woocommerce-checkout-payment
+    ul.payment_methods.methods
+    li
+    .ed_rate
+    .custom-checkbox
+    label {
     top: 5px;
     right: 0;
     margin: 0px;
     left: 0px;
 }
 
-
 /*----- checkout page end ---------*/
-
 
 /*-------- course purchase page start --------*/
 
@@ -5100,9 +5071,9 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_course_single_tab .nav-tabs>li>a.active,
-.ed_course_single_tab .nav-tabs>li>a.active:hover,
-.ed_course_single_tab .nav-tabs>li>a.active:focus {
+.ed_course_single_tab .nav-tabs > li > a.active,
+.ed_course_single_tab .nav-tabs > li > a.active:hover,
+.ed_course_single_tab .nav-tabs > li > a.active:focus {
     color: #ffffff;
     border: 1px solid #eb7f1c;
     background-color: #eb7f1c;
@@ -5113,7 +5084,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_course_single_tab .nav-tabs>li>a:hover {
+.ed_course_single_tab .nav-tabs > li > a:hover {
     border-color: #eb7f1c #eb7f1c #eb7f1c;
     color: #ffffff;
     -webkit-transition: all 0.3s ease;
@@ -5123,7 +5094,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_course_single_tab .nav-tabs>li>a {
+.ed_course_single_tab .nav-tabs > li > a {
     margin-right: 0px;
     border-radius: 0px;
     padding: 10px 8px;
@@ -5134,8 +5105,8 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s ease;
 }
 
-.ed_course_single_tab .nav>li>a:hover,
-.nav>li>a:focus {
+.ed_course_single_tab .nav > li > a:hover,
+.nav > li > a:focus {
     background-color: #eb7f1c;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -5187,9 +5158,7 @@ a.ed_getinvolved:hover i {
     padding: 9px 15px;
 }
 
-
 /*-------- course purchase page end --------*/
-
 
 /*-------- policy page start --------*/
 
@@ -5205,9 +5174,7 @@ a.ed_getinvolved:hover i {
     font-size: 18px;
 }
 
-
 /*-------- policy page end --------*/
-
 
 /*-------- course single page start --------*/
 
@@ -5390,9 +5357,7 @@ a.ed_getinvolved:hover i {
     color: #eb7f1c;
 }
 
-
 /*-------- course single page end --------*/
-
 
 /*-------- pricing table page start --------*/
 
@@ -5668,7 +5633,11 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_pricing_table_wrapper_second .ed_pricing_table:hover .ed_table_price p small {
+.ed_pricing_table_wrapper_second
+    .ed_pricing_table:hover
+    .ed_table_price
+    p
+    small {
     color: #fff;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -5677,7 +5646,11 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-.ed_pricing_table_wrapper_second .ed_pricing_table:hover .ed_table_price p span {
+.ed_pricing_table_wrapper_second
+    .ed_pricing_table:hover
+    .ed_table_price
+    p
+    span {
     color: #fff;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -5696,9 +5669,7 @@ a.ed_getinvolved:hover i {
     transition: all 0.3s;
 }
 
-
 /*-------- pricing table page end --------*/
-
 
 /* Additional */
 
@@ -5720,7 +5691,7 @@ a:hover {
     text-decoration: none !important;
 }
 
-.owl-theme .owl-nav [class*='owl-'] {
+.owl-theme .owl-nav [class*="owl-"] {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -5733,16 +5704,16 @@ a:hover {
     padding-left: 15px;
 }
 
-.ed_most_recomended_data .ed_rating .row>p {
+.ed_most_recomended_data .ed_rating .row > p {
     padding: 0;
     margin: 0;
 }
 
 .img-responsive,
-.thumbnail>img,
-.thumbnail a>img,
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -5782,12 +5753,11 @@ a:hover {
     width: 100%;
 }
 
-.nav>li>a {
+.nav > li > a {
     position: relative;
     display: block;
     padding: 10px 15px;
 }
-
 
 /*------ responsive css start ----*/
 
@@ -5839,7 +5809,6 @@ a:hover {
 @media (min-width: 768px) and (max-width: 991px) {
     .edoco_menu ul li a {
         padding: 30px 15px 30px 0px;
-        ;
     }
     .ed_search_form .ed_orange {
         float: none !important;
@@ -6251,7 +6220,7 @@ a:hover {
     .ed_inner_dashboard_info .ed_add_students p {
         width: 80%;
     }
-    .ed_dashboard_inner_tab .nav-tabs>li>a {
+    .ed_dashboard_inner_tab .nav-tabs > li > a {
         padding: 10px 9px;
     }
     .ed_teacher_div h3 {
@@ -6302,16 +6271,16 @@ a:hover {
     .ed_single_wrapper .ed_btn {
         padding: 13px 18px;
     }
-    .ed_blog_bottom_pagination .pagination>li>a,
-    .pagination>li>span {
+    .ed_blog_bottom_pagination .pagination > li > a,
+    .pagination > li > span {
         padding: 5px 10px;
     }
-    .ed_blog_bottom_pagination .pagination>.active>a,
-    .pagination>.active>span,
-    .pagination>.active>a:hover,
-    .pagination>.active>span:hover,
-    .pagination>.active>a:focus,
-    .pagination>.active>span:focus {
+    .ed_blog_bottom_pagination .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus {
         padding: 5px 20px;
     }
     .cart_totals {
@@ -6359,13 +6328,11 @@ a:hover {
     }
 }
 
-
 /*------ responsive css end ----*/
-
 
 /* MENU CSS START */
 
-.main-menu>ul {
+.main-menu > ul {
     position: relative;
 }
 
@@ -6387,28 +6354,28 @@ a:hover {
     width: 100%;
 }
 
-.main-menu ul>li>a {
+.main-menu ul > li > a {
     padding: 20px 20px;
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
     color: #3c3d49;
-    font-family: 'Merienda One', cursive;
+    font-family: "Merienda One", cursive;
 }
 
-.main-menu ul>li>a:hover,
-.main-menu ul>li.active>a {
+.main-menu ul > li > a:hover,
+.main-menu ul > li.active > a {
     color: #eb7f1c;
 }
 
-.main-menu .sub-menu>li>a {
+.main-menu .sub-menu > li > a {
     width: 100%;
     padding: 10px 20px;
     position: relative;
 }
 
-.has-sub-menu>.sub-menu>li>a:before {
+.has-sub-menu > .sub-menu > li > a:before {
     content: "";
     position: absolute;
     left: 0;
@@ -6420,12 +6387,12 @@ a:hover {
     margin: auto;
 }
 
-.has-sub-menu>.sub-menu>li:hover>a,
-.main-menu ul>li>a.active {
+.has-sub-menu > .sub-menu > li:hover > a,
+.main-menu ul > li > a.active {
     color: #eb7f1c;
 }
 
-.has-sub-menu>.sub-menu>li:hover>a:before {
+.has-sub-menu > .sub-menu > li:hover > a:before {
     color: #eb7f1c;
     width: 10px;
 }
@@ -6439,14 +6406,13 @@ a:hover {
     transition: all 0.3s;
 }
 
-
 /* Menu Button*/
 
 .menu-btn-wrap .menu-btn {
     margin: 0 0 0 20px;
 }
 
-.menu-btn-wrap>a {
+.menu-btn-wrap > a {
     width: 50px;
     height: 50px;
     display: flex;
@@ -6462,7 +6428,7 @@ a:hover {
     border-radius: 10px;
 }
 
-.menu-btn-wrap>a:hover {
+.menu-btn-wrap > a:hover {
     background: #ffffff;
 }
 
@@ -6498,7 +6464,7 @@ a:hover {
 
 @media (min-width: 1200px) {
     /*Header*/
-    .menu-btn-wrap>a.menu-btn {
+    .menu-btn-wrap > a.menu-btn {
         display: none;
     }
     .main-menu .sub-menu {
@@ -6562,7 +6528,7 @@ a:hover {
         float: right;
         margin: 15px 0;
     }
-    .main-menu>ul {
+    .main-menu > ul {
         background: #f9f9f9;
         position: fixed;
         left: -340px;
@@ -6579,14 +6545,14 @@ a:hover {
         border-right: 1px solid #efefef;
         display: block;
     }
-    .main-menu.open-menu>ul {
+    .main-menu.open-menu > ul {
         left: 0;
     }
     .main-menu .has-sub-menu:before,
     .main-menu .has-sub-menu:after {
         position: absolute;
         bottom: 0;
-        content: '';
+        content: "";
         background: #eb7f1c;
     }
     .main-menu .has-sub-menu:after {
@@ -6601,35 +6567,35 @@ a:hover {
         height: 12px;
         top: 18px;
     }
-    .main-menu>ul::-webkit-scrollbar {
+    .main-menu > ul::-webkit-scrollbar {
         width: 3px;
     }
-    .main-menu>ul::-webkit-scrollbar-track {
+    .main-menu > ul::-webkit-scrollbar-track {
         background-color: #efefef;
     }
-    .main-menu>ul::-webkit-scrollbar-thumb {
+    .main-menu > ul::-webkit-scrollbar-thumb {
         background-color: #eb7f1c;
     }
     .main-menu .sub-menu {
         display: none;
     }
-    .main-menu ul>li>a {
+    .main-menu ul > li > a {
         padding: 15px 20px;
     }
-    .main-menu>ul>li {
+    .main-menu > ul > li {
         border-bottom: 1px solid #efefef;
     }
-    .main-menu .sub-menu>li>a {
+    .main-menu .sub-menu > li > a {
         width: auto;
     }
-    .has-sub-menu>.sub-menu>li>a:before {
+    .has-sub-menu > .sub-menu > li > a:before {
         content: unset;
     }
     .main-menu .sub-menu {
         background: #ffffff;
         padding-left: 20px;
     }
-    .main-menu>ul>li.has-sub-menu.open:before {
+    .main-menu > ul > li.has-sub-menu.open:before {
         content: unset;
     }
     .edu-info-menu {
@@ -6641,13 +6607,13 @@ a:hover {
 }
 
 @media (min-width: 767.98px) {
-    .with-left-widgets .container>.row {
+    .with-left-widgets .container > .row {
         flex-direction: row-reverse;
     }
 }
 
 @media (max-width: 767.98px) {
-    .main-menu>ul {
+    .main-menu > ul {
         width: 260px;
     }
     .menu-btn-wrap {
@@ -6660,8 +6626,8 @@ a:hover {
     }
 }
 
-@media (max-width: 575.98px) {}
-
+@media (max-width: 575.98px) {
+}
 
 /* MENU CSS END */
 

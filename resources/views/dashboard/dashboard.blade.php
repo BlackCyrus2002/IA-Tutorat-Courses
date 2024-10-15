@@ -39,7 +39,7 @@
                                 <li><a href="#notification" data-bs-toggle="tab">Notifications <span>0</span></a></li>
                                 <li><a href="#profile" data-bs-toggle="tab">Profil</a></li>
                                 <li><a href="#setting" data-bs-toggle="tab">Paramètres</a></li>
-                                <li><a href="#forums" data-bs-toggle="tab">Forums et Tuteur Virtuel</a></li>
+                                <li><a href="#forums" data-bs-toggle="tab">Forums</a></li>
                             </ul>
                         </div>
                     </div>

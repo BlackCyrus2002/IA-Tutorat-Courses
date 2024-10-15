@@ -35,6 +35,18 @@ Purchase: http://themeforest.net/user/kamleshyadav
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
+<style>
+    .ed_img_overlay {
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)),
+            url({{ asset('images/ap_ap.jpg') }});
+        background-size: cover;
+    }
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+</style>
 
 <body>
     <!--Page main section start-->
@@ -47,7 +59,11 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="d-flex justify-content-between align-items-center">
                                 <p>Bienvenue sur EDUC-AI</p>
-                                <a href="{{ route('login') }}" class="btn btn-light">Se connecter</a>
+                                <div style="display: flex">
+                                    <a href="{{ route('login') }}" style="margin-right: 10px"
+                                        class="btn btn-light">Connexion</a>
+                                    <a href="{{ route('braine.register') }}" class="btn btn-light">Inscription</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,7 +75,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-12">
                             <div class="educo_logo">
                                 <a href="{{ route('index') }}"><img src="{{ asset('images/header/logo.png') }}"
-                                alt="logo" /></a>
+                                        alt="logo" /></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-2 col-md-1 col-sm-12 col-12">
@@ -76,7 +92,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         </div>
                         <div class="col-xl-2 col-lg-7 col-md-8 col-sm-12 col-12">
                             <div class="educo_call edu-info-menu">
-                                <a href="javascript:void(0);"><i class="fa fa-phone"></i> 1-220-090</a>
+                                <a href="javascript:void(0);"><i class="fa fa-phone"></i> +225-07-79-70-67-66</a>
                                 <div class="menu-btn-wrap">
                                     <a href="javascript:void(0);" class="menu-btn">
                                         <span></span>

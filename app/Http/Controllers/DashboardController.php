@@ -10,4 +10,8 @@ class DashboardController extends Controller
     {
         return view('dashboard.dashboard');
     }
+    public function cour_suivie()
+    {
+        return view('dashboard.cours.course_single');
+    }
 }
