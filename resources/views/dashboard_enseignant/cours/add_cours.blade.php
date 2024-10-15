@@ -31,9 +31,6 @@
                         </div>
                         <br>
                         <form class="ed_contact_form ed_toppadder40" method="POST" enctype="multipart/form-data">
-                            <div>
-                                <h3 style="font-weight: bold;text-decoration:underline">Informations personnelles</h3>
-                            </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -43,8 +40,6 @@
                                 </div>
 
                             </div>
-
-
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -57,9 +52,9 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label class="control-label">Photo :</label>
-                                        <input type="file" name="image" id="image" class="form-control"
-                                            accept="image/*" onchange="previewImage(event)">
+                                        <label class="control-label">Fichier du cour :</label>
+                                        <input type="file" name="fichier" id="fichier" class="form-control"
+                                            accept=".pdf">
                                     </div>
                                 </div>
                             </div>
