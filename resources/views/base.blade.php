@@ -60,7 +60,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             <div class="d-flex justify-content-between align-items-center">
                                 <p>Bienvenue sur EDUC-AI</p>
                                 <div style="display: flex">
-                                    <a href="{{ route('login') }}" style="margin-right: 10px"
+                                    <a href="{{ route('braine.login') }}" style="margin-right: 10px"
                                         class="btn btn-light">Connexion</a>
                                     <a href="{{ route('braine.register') }}" class="btn btn-light">Inscription</a>
                                 </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Icon;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -21,7 +22,7 @@ return new class extends Migration
 
             $table->string("titre");
             $table->string("path")->unique();
-            $table->foreignIdFor("icons","id");
+            $table->foreignIdFor("icons",Icon::class);
         });
 
         Schema::create('document_leçons', function (Blueprint $table) {
