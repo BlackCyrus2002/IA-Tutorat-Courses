@@ -15,10 +15,10 @@ class DocumentLeçon extends Model
     protected $keyType = "string";
 
     protected static function booted(){
-        static::creating( function($formation){
+        static::creating( function($id){
 
-            if(empty($formation->id)){
-                $formation->id = (string) \Illuminate\Support\Str::uuid();
+            if(empty($id->id)){
+                $id->id = (string) \Illuminate\Support\Str::uuid();
             }
 
         });
@@ -28,11 +28,14 @@ class DocumentLeçon extends Model
         return \Illuminate\Support\Facades\Storage::url($this->image);
     }
 
+
+    // Au cas ou la table document_etudiants est crée
     public function Etudiant(){
-        $this->belongsToMany(User::class);
+        $this->belongsToMany(User::class,"document_etudiants");
     }
 
+    // Au cas ou la table document_enseignants est crée
     public function Enseignant(){
-        $this->belongsToMany(User::class);
+        $this->belongsTo(User::class);
     }
 }

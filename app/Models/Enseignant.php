@@ -33,5 +33,8 @@ class Enseignant extends Model
         $this->belongsTo(User::class);
     }
 
+    public function Chapitre(){
+        return $this->belongsToMany(Chapitre::class,"chapitre_enseignants");
+    }
 
 }

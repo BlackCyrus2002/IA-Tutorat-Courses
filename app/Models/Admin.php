@@ -15,10 +15,10 @@ class Admin extends Model
     protected $keyType = "string";
 
     protected static function booted(){
-        static::creating( function($formation){
+        static::creating( function($user){
 
-            if(empty($formation->id)){
-                $formation->id = (string) \Illuminate\Support\Str::uuid();
+            if(empty($user->id)){
+                $user->id = (string) \Illuminate\Support\Str::uuid();
             }
 
         });
@@ -28,7 +28,11 @@ class Admin extends Model
         return \Illuminate\Support\Facades\Storage::url($this->image);
     }
 
+    public function admin(){
+        return $this->belongsTo(User::class);
+    }
+
     public function user(){
-        $this->belongsTo(User::class);
+        return $this->hasMany(User::class);
     }
 }

@@ -11,6 +11,19 @@ return new class extends Migration
      */
     public function up(): void
     {
+        Schema::create("icons", function(Blueprint $table){
+            $table->id();
+            $table->string("image")->unique();
+        });
+
+        Schema::create("documents", function(Blueprint $table){
+            $table->uuid("id");
+
+            $table->string("titre");
+            $table->string("path")->unique();
+            $table->foreignIdFor("icons","id");
+        });
+
         Schema::create('document_leçons', function (Blueprint $table) {
             $table->uuid("id")->primary();
             $table->string("titre");

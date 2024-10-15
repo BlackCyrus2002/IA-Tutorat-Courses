@@ -26,15 +26,15 @@ class Cours extends Model
     }
 
     public function CategorieCours(){
-        $this->belongsTo(CategorieCours::class);
+        $this->belongsTo(CategorieCours::class,"categorie_id");
     }
 
     public function Etudiant(){
-        $this->belongsToMany(User::class);
+        $this->belongsToMany(User::class,"cours_etudiants");
     }
 
     public function Enseignant(){
-        $this->belongsToMany(User::class);
+        $this->belongsToMany(User::class,"cours_enseigants");
     }
 
     public function Chapitre(){

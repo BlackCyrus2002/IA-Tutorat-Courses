@@ -32,4 +32,8 @@ class Etudiant extends Model
     public function user(){
         $this->belongsTo(User::class);
     }
+
+    public function chapitre(){
+        return $this->belongsToMany(Chapitre::class,"chapitre_etudiants");
+    }
 }

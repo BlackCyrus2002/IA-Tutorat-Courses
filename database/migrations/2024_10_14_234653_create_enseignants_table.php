@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('enseignants', function (Blueprint $table) {
             $table->uuid("id")->primary();
 
+            $table->string('nom');
+            $table->string('prenoms');
+
             $table->foreignUuid("user_id")
             ->references("id")
             ->on("users")

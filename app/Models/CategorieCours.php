@@ -9,20 +9,16 @@ class CategorieCours extends Model
 {
     use HasFactory;
 
-    public function Cours(){
-        $this->hasMany(Cours::class);
-    }
-
     protected $guarded = [];
 
     public $incrementing = false;
     protected $keyType = "string";
 
     protected static function booted(){
-        static::creating( function($formation){
+        static::creating( function($categorie){
 
-            if(empty($formation->id)){
-                $formation->id = (string) \Illuminate\Support\Str::uuid();
+            if(empty($categorie->id)){
+                $categorie->id = (string) \Illuminate\Support\Str::uuid();
             }
 
         });
@@ -32,8 +28,16 @@ class CategorieCours extends Model
         return \Illuminate\Support\Facades\Storage::url($this->image);
     }
 
-    public function user(){
-        $this->belongsTo(User::class);
+    public function admin(){
+        return $this->belongsTo(User::class);
+    }
+
+    // public function Cours(){
+    //     $this->hasMany(Cours::class);
+    // }
+
+    public function SousCategorie(){
+        return $this->hasMany(SousCategorie::class);
     }
 
 }
