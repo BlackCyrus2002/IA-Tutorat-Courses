@@ -22,4 +22,8 @@ class DashbordEnseignantController extends Controller
     {
         return view("dashboard_enseignant.cours.add_cours");
     }
+    public function edit_cours()
+    {
+        return view('dashboard_enseignant.cours.edit_cours');
+    }
 }
