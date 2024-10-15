@@ -108,6 +108,7 @@ const processResponse = (val) => {
         // Exemple de réponse basée sur l'intent
         const intent = val.entities.intent && val.entities.intent[0];
         let response = "Désolé, je ne comprends pas.";
+        console.log(intent);
 
         if (intent) {
             switch (intent.value) {

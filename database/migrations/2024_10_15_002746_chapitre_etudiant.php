@@ -11,7 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create("chapitre_etudiants", function (Blueprint $table) {
+            $table->foreignUuid("chapitre_id")
+                ->references("id")
+                ->on("chapitres")->cascadeOnDelete();
+
+            $table->foreignUuid("etudiant_id")
+                ->references("id")
+                ->on("users")->cascadeOnDelete();
+            $table->timestamps();
+            $table->boolean('finished');
+            $table->primary(["chapitre_id", "etudiant_id"]);
+        });
     }
 
     /**
@@ -19,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('chapitre_etudiants');
     }
 };
