@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AccueilController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DashbordEnseignantController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,13 @@ Route::prefix('/')->name("braine.")->group(function () {
 Route::prefix('/')->name("dashboard.")->group(function () {
     Route::get('/tableau-de-bord', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('/cour-suivie', [DashboardController::class, 'cour_suivie'])->name('cour_suivie');
+    Route::get('/leçon', [DashboardController::class, 'course_lesson'])->name('course_lesson');
+});
+Route::prefix('/')->name("dashbord_enseignant.")->group(function () {
+    Route::get('/tableau-de-bord-enseignant', [DashbordEnseignantController::class, 'dashboard'])->name('dashboard');
+    Route::get('/cour-suivie', [DashbordEnseignantController::class, 'cour_suivie'])->name('cour_suivie');
+    Route::get('/leçon', [DashbordEnseignantController::class, 'course_lesson'])->name('course_lesson');
+    Route::get('/ajouter-un-cour', [DashbordEnseignantController::class, 'add_cours'])->name('add_cours');
 });
 
 

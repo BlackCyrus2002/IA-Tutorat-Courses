@@ -9,7 +9,7 @@
                             alt="item1" class="img-responsive">
                     </div>
                     <div class="ed_item_description ed_most_recomended_data">
-                        <h4><a href="{{ route('dashboard.cour_suivie') }}">Project Learning
+                        <h4><a href="">Project Learning
                             </a><span>£25</span></h4>
                         <div class="row">
                             <div class="ed_rating">
@@ -39,7 +39,7 @@
                         <p>Project-Based Learning is a flexible tool for framing
                             given academic standards into curriculum flexible
                             tool for framing.</p>
-                        <a href="{{ route('dashboard.cour_suivie') }}" class="ed_getinvolved">get
+                        <a href="" class="ed_getinvolved">get
                             involved <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <img src="https://dummyimage.com/263x263/000/fff" alt="item1" class="img-responsive">
                     </div>
                     <div class="ed_item_description ed_most_recomended_data">
-                        <h4><a href="{{ route('dashboard.cour_suivie') }}">Billing
+                        <h4><a href="">Billing
                                 Seminar</a><span>£20</span></h4>
                         <div class="row">
                             <div class="ed_rating">
@@ -78,8 +78,7 @@
                         <p>We offer these billing seminars to AMA member
                             physicians along with their staff (at least must
                             attend the seminar).</p>
-                        <a href="{{ route('dashboard.cour_suivie') }}" class="ed_getinvolved">get involved <i
-                                class="fa fa-long-arrow-right"></i></a>
+                        <a href="" class="ed_getinvolved">get involved <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 ed_bottompadder20">
@@ -87,7 +86,7 @@
                         <img src="https://dummyimage.com/263x263/000/fff" alt="item1" class="img-responsive">
                     </div>
                     <div class="ed_item_description ed_most_recomended_data">
-                        <h4><a href="{{ route('dashboard.cour_suivie') }}">Girls On Rails
+                        <h4><a href="">Girls On Rails
                             </a><span>£40</span></h4>
                         <div class="row">
                             <div class="ed_rating">
@@ -117,8 +116,7 @@
                         <p>In a lot of various jobs, psychology tests are
                             something you will have to deal with. We can prepare
                             you.</p>
-                        <a href="{{ route('dashboard.cour_suivie') }}" class="ed_getinvolved">get involved <i
-                                class="fa fa-long-arrow-right"></i></a>
+                        <a href="" class="ed_getinvolved">get involved <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 ed_bottompadder20">
@@ -126,7 +124,7 @@
                         <img src="https://dummyimage.com/263x263/000/fff" alt="item1" class="img-responsive">
                     </div>
                     <div class="ed_item_description ed_most_recomended_data">
-                        <h4><a href="{{ route('dashboard.cour_suivie') }}">programming
+                        <h4><a href="">programming
                             </a><span>£38</span></h4>
                         <div class="row">
                             <div class="ed_rating">
@@ -156,10 +154,15 @@
                         <p>Project-Based Learning is a flexible tool for framing
                             given academic standards into curriculum flexible
                             tool for framing.</p>
-                        <a href="{{ route('dashboard.cour_suivie') }}" class="ed_getinvolved">get involved <i
-                                class="fa fa-long-arrow-right"></i></a>
+                        <a href="" class="ed_getinvolved">get involved <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
+            </div>
+            <div>
+                <center>
+                    <a href="{{ route('dashbord_enseignant.add_cours') }}" class="btn btn-primary">Ajouter un nouveau
+                        cour</a>
+                </center>
             </div>
         </div>
     </div>

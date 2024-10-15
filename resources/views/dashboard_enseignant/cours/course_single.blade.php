@@ -59,7 +59,7 @@
                                     <div class="course_detail">
                                         <div class="course_faculty">
                                             <img src="https://dummyimage.com/32x32/000/fff" alt=""> <a
-                                                href="instructor_dashboard.html">evans sinai</a>
+                                                href="instructor_dashboard_enseignant.html">evans sinai</a>
                                         </div>
                                     </div>
                                 </div>
@@ -312,18 +312,21 @@
                     </div>
                     <div class="ed_time_executor ed_toppadder40">
                         <ul>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">lessons</a> <span>estimated time</span>
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">lessons</a> <span>estimated
+                                    time</span>
                             </li>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">development overview</a> <span>1Hourse 10
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">development overview</a>
+                                <span>1Hourse 10
                                     Minuts</span></li>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">basic html</a> <span>2Hourse 30
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">basic html</a> <span>2Hourse 30
                                     Minuts</span></li>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">Basic CSS</a> <span>3Hourse 15
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">Basic CSS</a> <span>3Hourse 15
                                     Minuts</span></li>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">Advanced HTML + CSS</a> <span>1Hourse 30
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">Advanced HTML + CSS</a>
+                                <span>1Hourse 30
                                     Minuts</span>
                             </li>
-                            <li><a href="{{ route('dashboard.course_lesson') }}">Javascript</a> <span>2Hourse 45
+                            <li><a href="{{ route('dashboard_enseignant.course_lesson') }}">Javascript</a> <span>2Hourse 45
                                     Minuts</span></li>
                         </ul>
                     </div>

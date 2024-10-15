@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('cours', function (Blueprint $table) {
             $table->uuid("id")->primary();
             $table->string("titre");
+            $table->string("description");
+            $table->string("fichier");
             $table->timestamps();
         });
     }

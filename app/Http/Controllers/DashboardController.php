@@ -14,4 +14,8 @@ class DashboardController extends Controller
     {
         return view('dashboard.cours.course_single');
     }
+    public function course_lesson()
+    {
+        return view('dashboard.cours.course_lesson');
+    }
 }
