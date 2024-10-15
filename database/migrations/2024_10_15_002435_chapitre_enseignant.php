@@ -14,18 +14,18 @@ return new class extends Migration
         Schema::create('chapitre_enseignants', function (Blueprint $table) {
 
             $table->foreignUuid("chapitre_id")
-            ->references("id")
-            ->on("chapitre")
-            ->cascadeOnDelete();
+                ->references("id")
+                ->on("chapitres")
+                ->cascadeOnDelete();
 
             $table->foreignUuid("enseignant_id")
-            ->references("id")
-            ->on("users")
-            ->cascadeOnDelete();
+                ->references("id")
+                ->on("users")
+                ->cascadeOnDelete();
 
             $table->timestamps();
 
-            $table->primary(["leçon_id", "enseignant_id"]);
+            $table->primary(["chapitre_id", "enseignant_id"]);
         });
     }
 
