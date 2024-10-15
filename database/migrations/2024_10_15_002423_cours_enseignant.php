@@ -15,6 +15,10 @@ return new class extends Migration
             $table->foreignUuid("cours_id")
             ->references("id")
             ->on("cours")->cascadeOnDelete();
+
+            $table->foreignUuid("enseignant_id")
+            ->references("id")
+            ->on("users")->cascadeOnDelete();
         });
     }
 
