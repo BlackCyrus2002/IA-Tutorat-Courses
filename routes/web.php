@@ -34,7 +34,7 @@ Route::prefix('/')->name("dashboard.")->group(function () {
 });
 Route::prefix('/')->name("dashbord_enseignant.")->group(function () {
     Route::get('/tableau-de-bord-enseignant', [DashbordEnseignantController::class, 'dashboard'])->name('dashboard');
-    Route::get('/cour-suivie', [DashbordEnseignantController::class, 'cour_suivie'])->name('cour_suivie');
+    Route::get('/cour-enseignant', [DashbordEnseignantController::class, 'cour_suivie'])->name('cour_suivie');
     Route::get('/leçon', [DashbordEnseignantController::class, 'course_lesson'])->name('course_lesson');
     Route::get('/ajouter-un-cour', [DashbordEnseignantController::class, 'add_cours'])->name('add_cours');
 });
