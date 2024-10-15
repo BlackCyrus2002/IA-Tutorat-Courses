@@ -22,7 +22,7 @@ return new class extends Migration
 
             $table->string("titre");
             $table->string("path")->unique();
-            $table->foreignIdFor(Icon::class, "id");
+            $table->foreignIdFor("icons", Icon::class);
         });
 
         Schema::create('document_leçons', function (Blueprint $table) {
