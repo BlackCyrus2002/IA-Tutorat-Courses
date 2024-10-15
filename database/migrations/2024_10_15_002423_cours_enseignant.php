@@ -19,6 +19,8 @@ return new class extends Migration
             $table->foreignUuid("enseignant_id")
             ->references("id")
             ->on("users")->cascadeOnDelete();
+
+            $table->primary(["cours_id", "enseignant_id"]);
         });
     }
 
