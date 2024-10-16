@@ -159,25 +159,24 @@ const getIntents = (text) => {
                 const intents = res.intents;
                 let response = "Désolé, je ne comprends pas.";
 
-                intents.forEach((intent, index) => {
-                    if (intent.name === "etude") {
-                        response =
-                            "Nous avons des exercices sur Java, PHP, Flutter et bien d'autres. Lequel vous intéresse ?";
-                    } else if (intent.name === "salutation") {
-                        response =
-                            "Bonjour! Comment puis-je vous aider aujourd'hui ?";
-                    } else if (intent.name === "aide") {
-                        response = "Bien sûr ! Quelle est votre question ?";
-                    } else if (intent.name === "emotion") {
-                        response =
-                            "Je comprends que vous traversez un moment difficile.";
-                    }
-                });
+                if (intent.name === "etude") {
+                    response =
+                        "Nous avons des exercices sur Java, PHP, Flutter et bien d'autres. Lequel vous intéresse ?";
+                } else if (intent.name === "salutation") {
+                    response =
+                        "Bonjour! Comment puis-je vous aider aujourd'hui ?";
+                } else if (intent.name === "aide") {
+                    response =
+                        "Bien sûr ! Quelle est votre question en informatique ?";
+                } else if (intent.name === "emotion") {
+                    response =
+                        "Je comprends que vous traversez un moment difficile, voulez-vous de l'aide avec un aspect technique ?";
+                }
 
                 aiMessage(response, false, botLoadingDelay + botReplyDelay);
             } else {
                 aiMessage(
-                    "Aucun intent détecté.",
+                    "Pouvez vous ajoutez plus de description?.",
                     false,
                     botLoadingDelay + botReplyDelay
                 );

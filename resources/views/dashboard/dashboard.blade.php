@@ -31,11 +31,11 @@
                             <img src="{{ $etudiant->imageUrl() ?? 'https://dummyimage.com/263x263/000/fff' }}"
                                 alt="Dashboard Image" />
                         </div>
-                        <h3>andre house</h3>
+                        <h3>{{ $etudiant->nom . ' ' . $etudiant->prenoms }}</h3>
                         <div class="ed_tabs_left">
                             <ul class="nav nav-tabs">
                                 <li><a class="active" href="#dashboard" data-bs-toggle="tab">Tableau de bord</a></li>
-                                <li><a href="#courses" data-bs-toggle="tab">Cours <span>4</span></a></li>
+                                <li><a href="#courses" data-bs-toggle="tab">Cours <span>1</span></a></li>
                                 <li><a href="#activity" data-bs-toggle="tab">Activités</a></li>
                                 <li><a href="#notification" data-bs-toggle="tab">Notifications <span>0</span></a></li>
                                 <li><a href="#profile" data-bs-toggle="tab">Profil</a></li>

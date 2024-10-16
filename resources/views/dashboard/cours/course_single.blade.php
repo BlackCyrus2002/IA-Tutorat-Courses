@@ -28,10 +28,10 @@
                 <div class="col-lg-9 col-md-9 col-sm-12">
                     <div class="ed_course_single_item">
                         <div class="ed_course_single_image">
-                            <img src="https://dummyimage.com/800x450/000/fff" alt="event image" />
+                            <img src="{{ asset('images/DIGITALAGELEARNING.jpg') }}" alt="event image" />
                         </div>
                         <div class="ed_course_single_info">
-                            <h2>Project Learning <span>£25</span></h2>
+                            <h2>Project Learning <span>25 000F</span></h2>
                             <div class="ed_rating">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-6">
@@ -41,35 +41,18 @@
                                                     <div class="star-rating"><span style="width:80%;"></span></div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                                                <span>(5 review)</span>
-                                            </div>
+
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 pull-right text-right">
                                         <div class="ed_views">
                                             <i class="fa fa-users"></i>
-                                            <span>35 students</span>
+                                            <span>35 Apprenants</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row w-100 justify-content-between">
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div class="course_detail">
-                                        <div class="course_faculty">
-                                            <img src="https://dummyimage.com/32x32/000/fff" alt=""> <a
-                                                href="instructor_dashboard.html">evans sinai</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 pull-right text-right">
-                                    <div class="ed_course_duration">
-                                        time duration: 75 days
-                                        <p>post graduation course</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="ed_course_single_tab">
                             <div role="tabpanel">
@@ -79,17 +62,17 @@
                                             aria-controls="description" role="tab" data-bs-toggle="tab">description</a>
                                     </li>
                                     <li role="presentation"><a href="#students" aria-controls="students" role="tab"
-                                            data-bs-toggle="tab">students</a></li>
+                                            data-bs-toggle="tab">Nombres d'étudiants pour ce cours</a></li>
                                     <li role="presentation"><a href="#news" aria-controls="news" role="tab"
-                                            data-bs-toggle="tab">news</a></li>
+                                            data-bs-toggle="tab">Nouveaux cours</a></li>
                                     <li role="presentation"><a href="#events" aria-controls="events" role="tab"
-                                            data-bs-toggle="tab">events</a></li>
+                                            data-bs-toggle="tab">Evènement</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane active" id="description">
                                         <div class="ed_course_tabconetent">
-                                            <h2>about course</h2>
+                                            <h2>A savoir</h2>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
                                                 vehicula mauris ac facilisis congue. Fusce sem enim, rhoncus
                                                 volutpat condimentum ac, placerat semper ligula. Suspendisse in
@@ -139,57 +122,15 @@
                                     <div role="tabpanel" class="tab-pane" id="students">
                                         <div class="ed_inner_dashboard_info">
                                             <div class="ed_course_single_info">
-                                                <h2>total students :- <span>20</span></h2>
-                                                <h5>10 students recently join this course</h5>
+                                                <h2>Total d'apprenant :- <span>1</span></h2>
+                                                <h5>1 élève à recemment rejoind le cour</h5>
                                                 <div class="ed_add_students">
                                                     <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>adler braxton</span>
-                                                    <p>new student</p>
+                                                    <span>Assan Cyriac Abonouan</span>
+                                                    <p>Nouvel étudiant</p>
                                                 </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>baldwin dallas</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>carney Tate</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>dwight easton</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>elbert wade</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>hailey kyler</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>graham ryder</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>jaxon keegan</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>kealy sage</span>
-                                                    <p>new student</p>
-                                                </div>
-                                                <div class="ed_add_students">
-                                                    <img src="https://dummyimage.com/100x100/000/fff" alt="">
-                                                    <span>lavern gunner</span>
-                                                    <p>new student</p>
+                                                <div>
+
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="row">
@@ -212,17 +153,9 @@
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="news">
                                         <div class="ed_course_tabconetent">
-                                            <h2>course news</h2>
-                                            <h5>some recent news about this course....</h5>
-                                            <p> I must explain to you how all this mistaken idea of denouncing
-                                                pleasure and praising pain was born and I will give you a complete
-                                                account of the system, and expound the actual teachings of the great
-                                                explorer
-                                                of the truth, the master-builder of human happiness. No one rejects,
-                                                dislikes, or avoids pleasure itself, because it is pleasure, but
-                                                because those who do not know how to pursue pleasure rationally
-                                                encounter
-                                                consequences that are extremely painful. </p>
+                                            <h2>Nouveaux cours</h2>
+                                            <h5>quelques nouvelles récentes sur ce cours....</h5>
+                                            <p> Aucune nouvelle en particulier </p>
                                         </div>
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="events">

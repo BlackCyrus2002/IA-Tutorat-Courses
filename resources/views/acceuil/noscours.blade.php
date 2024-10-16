@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Sec Title -->
         <div class="sec-title centered">
-            <div class="sec-title_title">Our Service</div>
+            <div class="sec-title_title">Nos Service</div>
             <h2 class="sec-title_heading">Nos formations <br>
                 <span style="font-size: 20px">
                     Grâce à un algorithme basé sur l'IA, nous vous offons un
@@ -14,125 +14,44 @@
         <div class="row clearfix">
 
             <!-- Service Block One -->
-            <div class="service-block_one col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_one-inner wow fadeInLeft animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                    <div class="service-block_one-icon">
-                        <i class="icon-copy dw dw-speaker-1"></i>
-                    </div>
-                    <h5 class="service-block_one-heading"><a href="service-detail.html">Digital marketers</a></h5>
-                    <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                        <span>massa mi. Aliquam</span> in hendrerit urna..
-                    </div>
-                    <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="service-block_one-number">01</div>
-                        <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa fa-plus"></i></a>
-                    </div>
-                </div>
-            </div>
+            <div class="ed_mostrecomeded_course_slider">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 ed_bottompadder20">
+                        <div class="ed_item_img">
+                            <img src="{{ asset('images/DIGITALAGELEARNING.jpg') }}" style="height: 263px;width:263px"
+                                alt="item1" class="img-responsive">
+                        </div>
+                        <div class="ed_item_description ed_most_recomended_data">
+                            <h4><a href="{{ route('dashboard.cour_suivie') }}">Project Learning
+                                </a><span>25 000FCFA</span></h4>
+                            <div class="row">
+                                <div class="ed_rating">
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-6">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                <div class="ed_stardiv">
+                                                    <div class="star-rating"><span style="width:80%;"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-            <!-- Service Block One -->
-            <div class="service-block_one col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_one-inner wow fadeInUp animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                    <div class="service-block_one-icon">
-                        <i class="icon-copy dw dw-analytics-17"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-5 col-sm-6 col-6">
+                                        <div class="ed_views">
+                                            <i class="fa fa-users"></i>
+                                            <span>35 élèves</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>L'apprentissage par projet est un outil flexible pour encadrer
+                                des normes académiques données dans un programme d'études.</p>
+                            <a href="{{ route('dashboard.cour_suivie') }}" class="ed_getinvolved">
+                                Plus d'information <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
                     </div>
-                    <h5 class="service-block_one-heading"><a href="service-detail.html">Content marketers</a></h5>
-                    <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                        <span>massa mi. Aliquam</span> in hendrerit urna..
-                    </div>
-                    <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="service-block_one-number">02</div>
-                        <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa fa-plus"></i></a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Service Block One -->
-            <div class="service-block_one col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_one-inner wow fadeInRight animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                    <div class="service-block_one-icon">
-                        <i class="icon-copy dw dw-user-1"></i>
-                    </div>
-                    <h5 class="service-block_one-heading"><a href="service-detail.html">Founders</a></h5>
-                    <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                        <span>massa mi. Aliquam</span> in hendrerit urna..
-                    </div>
-                    <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="service-block_one-number">03</div>
-                        <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa fa-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block One -->
-            <div class="service-block_one col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_one-inner wow fadeInLeft animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                    <div class="service-block_one-icon">
-                        <span class="icon-copy ti-write"></span>
-                    </div>
-                    <h5 class="service-block_one-heading"><a href="service-detail.html">Copywriters</a></h5>
-                    <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                        <span>massa mi. Aliquam</span> in hendrerit urna..
-                    </div>
-                    <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="service-block_one-number">04</div>
-                        <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa fa-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block One -->
-            <div class="service-block_one col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_one-inner wow fadeInUp animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
-                    <div class="service-block_one-icon">
-                        <i class="icon-copy dw dw-tag"></i>
-                    </div>
-                    <h5 class="service-block_one-heading"><a href="service-detail.html">SEO specialists</a></h5>
-                    <div class="service-block_one-text">Lorem ipsum dolor sit ame consectetur adipiscing elit Ut et
-                        <span>massa mi. Aliquam</span> in hendrerit urna..
-                    </div>
-                    <div class="lower-box d-flex justify-content-between align-items-center flex-wrap">
-                        <div class="service-block_one-number">05</div>
-                        <a class="service-block_one-join" href="service-detail.html">Join now <i
-                                class="fa fa-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service Block Two -->
-            <div class="service-block_two col-lg-4 col-md-6 col-sm-12">
-                <div class="service-block_two-inner wow fadeInRight animated" data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                    <div class="service-block_two-sideicon"
-                        style="background-image:url(assets/images/icons/service-1.png)"></div>
-                    <div class="service-block_two-icon">
-                        <img src="assets/images/icons/service.png" alt="">
-                    </div>
-                    <h5 class="service-block_two-heading"><a href="service-detail.html">More service</a></h5>
-                    <div class="service-block_two-text">Lorem ipsum dolor sit ame consectetur.</div>
-                    <div class="service-block_two-button">
-                        <a href="service.html" class="template-btn btn-style-one">
-                            <span class="btn-wrap">
-                                <span class="text-one">learn more</span>
-                                <span class="text-two">learn more</span>
-                            </span>
-                        </a>
-                    </div>
                 </div>
             </div>
 

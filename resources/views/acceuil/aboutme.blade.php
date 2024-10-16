@@ -10,7 +10,8 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="ed_about_img">
-                    <img src="https://dummyimage.com/555x340/000/fff" alt="1" />
+                    <img src="{{ asset('images/Bannière-AfricadigitalEdu.jpg') }}" alt="1"
+                        style="height: 300px" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">

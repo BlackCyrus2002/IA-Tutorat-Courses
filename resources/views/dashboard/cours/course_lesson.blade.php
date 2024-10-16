@@ -11,15 +11,12 @@
 
                             <div class="ed_video_section">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <div class="ed_video">
-                                        <img src="https://dummyimage.com/800x450/000/fff" class="img-responsive"
-                                            alt="1" />
-                                        <div class="ed_img_overlay">
-                                            <a href="javascript:void(0);"><i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                    </div>
-                                    <iframe id="educo_video" class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/8mb-0qbq984" allowfullscreen></iframe>
+
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/hIEZ8xpdBts?si=-CRCa8RPKH3v_0Ze"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                             </div>
 

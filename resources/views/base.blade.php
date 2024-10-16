@@ -73,18 +73,15 @@ Purchase: http://themeforest.net/user/kamleshyadav
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-12">
-                            <div class="educo_logo">
-                                <a href="{{ route('index') }}"><img src="{{ asset('images/header/logo.png') }}"
-                                        alt="logo" /></a>
-                            </div>
+
                         </div>
                         <div class="col-xl-8 col-lg-2 col-md-1 col-sm-12 col-12">
                             <div class="main-menu-container">
                                 <div class="main-menu">
                                     <ul id="desktop-nav">
                                         <li class="active"><a href="{{ route('index') }}#home">Accueil</a></li>
-                                        <li><a href="{{ route('index') }}#about">Nos formations</a></li>
-                                        <li><a href="{{ route('index') }}#features">features</a></li>
+                                        <li><a href="{{ route('index') }}#slider2">Nos formations</a></li>
+                                        <li><a href="{{ route('index') }}#features">Activité</a></li>
                                         <li><a href="{{ route('index') }}#contact">Nous contacter</a></li>
                                     </ul>
                                 </div>
@@ -119,8 +116,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="widget text-widget">
                                 <p>
-                                    <a href="index.html"><img src="{{ asset('images/footer/F_Logo.png') }}"
-                                            alt="Footer Logo" /></a>
+                                    <a href="index.html"></a>
                                 </p>
                                 <p>Nous sommes à la recherche de personnes passionnées par l’innovation et l'éducation.
                                     Si vous souhaitez rejoindre une équipe dynamique, engagée à transformer l’éducation
