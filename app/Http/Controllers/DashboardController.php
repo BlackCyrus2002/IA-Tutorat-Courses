@@ -9,7 +9,16 @@ class DashboardController extends Controller
 {
     public function dashboard()
     {
-        return view('dashboard.dashboard');
+
+        $user = Auth::user();
+        $etudiant = $user->Etudiants()->get()[0];
+        $CoursEtudiant = $user->Cours()->get();
+
+        return view('dashboard.dashboard', compact(
+            "user",
+            "etudiant",
+            "CoursEtudiant",
+        ));
     }
     public function cour_suivie()
     {

@@ -6,11 +6,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -18,7 +18,7 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        // 'name',
+        'name',
         'email',
         'password',
     ];
@@ -34,40 +34,37 @@ class User extends Authenticatable
     ];
 
     /**
-     * Get the attributes that should be cast.
+     * The attributes that should be cast.
      *
-     * @return array<string, string>
+     * @var array<string, string>
      */
-    protected function casts(): array
-    {
-        return [
-            'email_verified_at' => 'datetime',
-            'password' => 'hashed',
-        ];
-    }
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
 
     protected $guarded = [];
 
     public $incrementing = false;
     protected $keyType = "string";
 
-    protected static function booted(){
-        static::creating( function($formation){
+    protected static function booted()
+    {
+        static::creating(function ($formation) {
 
-            if(empty($formation->id)){
+            if (empty($formation->id)) {
                 $formation->id = (string) \Illuminate\Support\Str::uuid();
             }
-
         });
     }
 
-    public function imageUrl(){
+    public function imageUrl()
+    {
         return \Illuminate\Support\Facades\Storage::url($this->image);
     }
 
     public function Cours()
     {
-        return $this->belongsToMany(Cours::class);
+        return $this->belongsToMany(Cours::class, "cours_etudiants", "etudiant_id");
     }
 
     public function Chapitre()

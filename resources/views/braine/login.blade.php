@@ -30,19 +30,32 @@
                             <h3 style="font-weight: bold">S'enregistrer</h3>
                         </div>
                         <br>
-                        <form enctype="multipart/form-data" class="ed_contact_form ed_toppadder40">
+                        <form method="post" enctype="multipart/form-data" class="ed_contact_form ed_toppadder40">
+                            @csrf
                             <div class="form-group">
                                 <label class="control-label">Email :</label>
-                                <input type="email" class="form-control" required>
+                                <input type="email" value="{{ old('email') }}" name="email" class="form-control"
+                                    required>
+                                @error('email')
+                                    <span class="text-danger">
+                                        {{ $message }}
+                                    </span>
+                                @enderror
                             </div>
                             <div class="form-group">
-                                <label class="control-label">Password :</label>
-                                <input type="password" class="form-control" required>
+                                <label class="control-label">Mot de passe :</label>
+                                <input type="password" name="password" value="{{ old('password') }}" class="form-control"
+                                    required>
+                                @error('password')
+                                    <span class="text-danger">
+                                        {{ $message }}
+                                    </span>
+                                @enderror
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label class="control-label">Confirm Password :</label>
                                 <input type="password" class="form-control" required>
-                            </div>
+                            </div> --}}
                             <div style="display: flex;align-items:center">
                                 <input type="checkbox" name="lu" id="" style="margin-right: 10px">
                                 <label for="">
@@ -54,13 +67,13 @@
                             <div class="row">
                                 <div class="col-sm-8">
                                     <p>Vous avez déjà un compte?<br>
-                                        <a href="{{ route('braine.login') }}" style="color: purple;font-weight:bold">
-                                            Connectez-vous
+                                        <a href="{{ route('braine.register') }}" style="color: purple;font-weight:bold">
+                                            S'inscrire
                                         </a>
                                     </p>
                                 </div>
                                 <div class="col-sm-4">
-                                    <input type="submit" class="btn ed_btn ed_orange pull-right" value="Inscription">
+                                    <input type="submit" class="btn ed_btn ed_orange pull-right" value="Connexion">
                                 </div>
                             </div>
                         </form>

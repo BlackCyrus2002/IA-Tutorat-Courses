@@ -13,7 +13,12 @@
             <ul>
                 <li>
                     <a href="#">Liste des leçons dans le cour</a>
-
+                    <span>5 </span>
+                    <span>
+                        <a href="">
+                            <i class="icon-copy dw dw-add"></i>
+                        </a>
+                    </span>
                 </li>
                 <li>
                     <a href="#">development overview</a>
@@ -71,12 +76,6 @@
                     </span>
                 </li>
             </ul>
-            <div style="float: right">
-                <a href="#" class="btn btn-primary">
-                    Ajouter une leçon
-                    <i class="icon-copy dw dw-add"></i>
-                </a>
-            </div>
         </div>
     </div>
 @endsection

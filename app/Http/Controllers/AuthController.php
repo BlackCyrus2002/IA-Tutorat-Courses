@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AuthRegisterRequest;
+use App\Http\Requests\LoginEudiantRequest;
 use App\Models\Etudiant;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -33,6 +34,7 @@ class AuthController extends Controller
         $data["user_id"] = $user->id;
         Etudiant::create($data);
 
+
         Auth::login($user);
 
         return redirect()->route("dashboard.dashboard"); // Redirection après connexion
@@ -44,7 +46,15 @@ class AuthController extends Controller
         return view("braine.login");
     }
 
-    public function loginStore(){
-        return redirect()->route("dashboard.dashboard");
+    public function loginStore(LoginEudiantRequest $request){
+        $credential = $request->validated();
+        if(Auth::attempt($credential)){
+            $request->session()->regenerate();
+            // $user = Auth::user();
+            return redirect()->route("dashboard.dashboard");
+        }
+        return redirect(route("login"))->withErrors([
+            "fail" => "Email ou mot de passe invalide"
+        ])->onlyInput('email');
     }
 }

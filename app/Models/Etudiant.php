@@ -15,25 +15,32 @@ class Etudiant extends Model
     public $incrementing = false;
     protected $keyType = "string";
 
-    protected static function booted(){
-        static::creating( function($formation){
+    protected static function booted()
+    {
+        static::creating(function ($formation) {
 
-            if(empty($formation->id)){
+            if (empty($formation->id)) {
                 $formation->id = (string) \Illuminate\Support\Str::uuid();
             }
-
         });
     }
 
-    public function imageUrl(){
+    public function imageUrl()
+    {
         return Storage::url($this->image);
     }
 
-    public function user(){
+    public function user()
+    {
         $this->belongsTo(User::class);
     }
 
-    public function chapitre(){
-        return $this->belongsToMany(Chapitre::class,"chapitre_etudiants");
+    public function chapitre()
+    {
+        return $this->belongsToMany(Chapitre::class, "chapitre_etudiants");
     }
+    // public function Cours()
+    // {
+    //     return $this->belongsToMany(Cours::class);
+    // }
 }
