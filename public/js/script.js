@@ -1,5 +1,5 @@
-const accessToken = "4B2EFVL3RWJML3EGCZGHNXNMIGB5WYUQ"; // Remplace par ton jeton d'accès Wit.ai
-const baseUrl = "https://api.wit.ai/message?v=20241014"; // URL de l'API Wit.ai
+const accessToken = "L5JTXOLBMPJGT4XYYXZXL27DWPAUXHDN"; // Remplace par ton jeton d'accès Wit.ai
+const baseUrl = "https://api.wit.ai/message?v=20241016"; // URL de l'API Wit.ai
 const loader = `<span class='loader'><span class='loader__dot'></span><span class='loader__dot'></span><span class='loader__dot'></span></span>`;
 const errorMessage =
     "Désolé, je ne peux pas vous aider pour le moment, mais vous pouvez appeler notre équipe de support directement au 0123456789.";
@@ -15,6 +15,25 @@ const $chatbotSubmit = $document.querySelector(".chatbot__submit");
 
 const botLoadingDelay = 1000;
 const botReplyDelay = 2000;
+
+const loadCourses = async () => {
+    try {
+        const response = await fetch("/cours.json"); // Chemin vers ton fichier JSON
+        if (!response.ok) {
+            throw new Error("Erreur lors du chargement du fichier JSON");
+        }
+        const data = await response.json();
+        console.log(data); // Afficher le contenu JSON dans la console
+
+        // Si tu veux voir les cours en particulier
+        console.log("Cours disponibles:", data.cours);
+    } catch (error) {
+        console.error("Erreur:", error);
+    }
+};
+
+// Appeler la fonction pour charger et afficher le contenu
+loadCourses();
 
 document.addEventListener(
     "keypress",
@@ -93,47 +112,15 @@ const escapeScript = (unsafe) => {
 
 const validateMessage = () => {
     const text = $chatbotInput.value;
-    const safeText = text ? escapeScript(text) : "";
+    const safeText = text;
+
     if (safeText.length && safeText !== " ") {
         resetInputField();
         userMessage(safeText);
-        send(safeText);
+        getIntents(safeText); // Appeler la fonction getIntents
     }
     scrollDown();
     return;
-};
-
-const processResponse = (val) => {
-    if (val && val.entities) {
-        // Exemple de réponse basée sur l'intent
-        const intent = val.entities.intent && val.entities.intent[0];
-        let response = "Désolé, je ne comprends pas.";
-        console.log(intent);
-
-        if (intent) {
-            switch (intent.value) {
-                case "greet":
-                    response =
-                        "Bonjour! Comment puis-je vous aider aujourd'hui ?";
-                    break;
-                // Ajoute d'autres cas selon tes intents
-                default:
-                    response = "Désolé, je ne peux pas vous aider avec ça.";
-            }
-        }
-
-        removeLoader();
-        return response;
-    }
-
-    removeLoader();
-    return `<p>${errorMessage}</p>`;
-};
-
-const setResponse = (val, delay = 0) => {
-    setTimeout(() => {
-        aiMessage(processResponse(val));
-    }, delay);
 };
 
 const resetInputField = () => {
@@ -148,11 +135,12 @@ const scrollDown = () => {
     return false;
 };
 
-const send = (text = "") => {
+//Fonction getIntents pour analyser le message utilisateur avec Wit.ai
+const getIntents = (text) => {
     fetch(`${baseUrl}&q=${encodeURIComponent(text)}`, {
         method: "GET",
         headers: {
-            Authorization: "Bearer " + accessToken,
+            Authorization: `Bearer ${accessToken}`,
             "Content-Type": "application/json; charset=utf-8",
         },
     })
@@ -160,15 +148,44 @@ const send = (text = "") => {
             if (!response.ok) {
                 throw new Error("Erreur réseau");
             }
+            // console.log(response.json());
             return response.json();
         })
         .then((res) => {
-            setResponse(res, botLoadingDelay + botReplyDelay);
+            console.log("Réponse complète de Wit.ai:", res); // Afficher la réponse complète
+
+            // Vérifier si des intents sont présents dans la réponse
+            if (res.intents && res.intents.length > 0) {
+                const intents = res.intents;
+                let response = "Désolé, je ne comprends pas.";
+
+                intents.forEach((intent, index) => {
+                    if (intent.name === "etude") {
+                        response =
+                            "Nous avons des exercices sur Java, PHP, Flutter et bien d'autres. Lequel vous intéresse ?";
+                    } else if (intent.name === "salutation") {
+                        response =
+                            "Bonjour! Comment puis-je vous aider aujourd'hui ?";
+                    } else if (intent.name === "aide") {
+                        response = "Bien sûr ! Quelle est votre question ?";
+                    } else if (intent.name === "emotion") {
+                        response =
+                            "Je comprends que vous traversez un moment difficile.";
+                    }
+                });
+
+                aiMessage(response, false, botLoadingDelay + botReplyDelay);
+            } else {
+                aiMessage(
+                    "Aucun intent détecté.",
+                    false,
+                    botLoadingDelay + botReplyDelay
+                );
+            }
         })
         .catch((error) => {
-            setResponse(errorMessage, botLoadingDelay + botReplyDelay);
-            resetInputField();
-            console.log(error);
+            aiMessage(errorMessage, false, botLoadingDelay + botReplyDelay);
+            console.error("Erreur lors de la récupération des intents:", error);
         });
 
     aiMessage(loader, true, botLoadingDelay);

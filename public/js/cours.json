@@ -1,0 +1,22 @@
+{
+    "cours": [
+        {
+            "titre": "Introduction au Machine Learning",
+            "description": "Un cours d'introduction sur le machine learning.",
+            "url": "https://example.com/intro-ml",
+            "intents": ["introduction_machine_learning"]
+        },
+        {
+            "titre": "Types d'Apprentissage",
+            "description": "Explorez les différents types d'apprentissage en machine learning.",
+            "url": "https://example.com/types-ml",
+            "intents": ["types_apprentissage"]
+        },
+        {
+            "titre": "Réseaux de Neurones",
+            "description": "Un tutoriel sur les réseaux de neurones.",
+            "url": "https://example.com/neural-networks",
+            "intents": ["reseaux_neurones"]
+        }
+    ]
+}

@@ -38,6 +38,7 @@ Route::prefix('/')->name("dashbord_enseignant.")->group(function () {
     Route::get('/leçon-enseignant', [DashbordEnseignantController::class, 'course_lesson'])->name('course_lesson');
     Route::get('/ajouter-un-cour', [DashbordEnseignantController::class, 'add_cours'])->name('add_cours');
     Route::get('/Modifier-un-cour', [DashbordEnseignantController::class, 'edit_cours'])->name('edit_cours');
+    Route::post('/chatbot', [DashbordEnseignantController::class, 'handleMessage']);
 });
 
 

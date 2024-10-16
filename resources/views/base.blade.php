@@ -22,6 +22,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <meta name="keywords" content="Educo, html template, Education template" />
     <meta name="author" content="Kamleshyadav" />
     <meta name="MobileOptimized" content="320" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!--srart theme style -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
