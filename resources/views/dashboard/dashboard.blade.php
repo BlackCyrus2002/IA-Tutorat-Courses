@@ -67,6 +67,17 @@
                                         les cours auxquels vous êtes abonné, les activités, les notifications et d'autres
                                         choses. Toutes les mises à jour ci-dessus
                                         peuvent être modifiées à partir du panneau de gauche fourni.</p>
+
+                                    <P style="text-align: left">
+                                        Pour un meilleur suivie nous vous conseillons d'éffectuer certaines évaluation en
+                                        <strong>
+                                            {{ $etudiant->domaine }}
+                                        </strong> pour vous proposer des cours
+
+                                    </P>
+                                    <a href="{{ route('dashboard.mon_test') }}" class="btn btn-primary">Passer mon teste <i
+                                            class="icon-copy dw dw-question"></i>
+                                    </a>
                                 </div>
                             </div>
                             @include('dashboard.mes_cours')

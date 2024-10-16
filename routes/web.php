@@ -29,7 +29,10 @@ Route::prefix('/')->name("dashboard.")->group(function () {
     Route::get('/tableau-de-bord', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('/cour-suivie', [DashboardController::class, 'cour_suivie'])->name('cour_suivie');
     Route::get('/leçon-etudiant', [DashboardController::class, 'course_lesson'])->name('course_lesson');
+    Route::get('/mon-test', [DashboardController::class, 'mon_test'])->name('mon_test');
+    Route::post('/mon-test', [DashboardController::class, 'verify_test']);
 });
+
 Route::prefix('/')->middleware("auth")->name("dashbord_enseignant.")->group(function () {
     Route::get('/tableau-de-bord-enseignant', [DashbordEnseignantController::class, 'dashboard'])->name('dashboard');
     Route::get('/cour-enseignant', [DashbordEnseignantController::class, 'cour_suivie'])->name('cour_suivie');

@@ -4,14 +4,11 @@
     <div class="ed_graysection ed_toppadder80 ed_bottompadder80">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-9 col-md-9 col-sm-12">
                     <div class="ed_course_single_item">
                         <div class="ed_course_single_image">
-
                             <div class="ed_video_section">
                                 <div class="embed-responsive embed-responsive-16by9">
-
                                     <iframe width="560" height="315"
                                         src="https://www.youtube.com/embed/hIEZ8xpdBts?si=-CRCa8RPKH3v_0Ze"
                                         title="YouTube video player" frameborder="0"

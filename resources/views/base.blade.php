@@ -26,6 +26,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <!--srart theme style -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/quiz.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/one-course-style.css') }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="{{ asset('vendors/styles/icon-font.min.css') }}" />
     <!-- end theme style -->
@@ -235,6 +236,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <script src="{{ asset('js/plugins/countto/jquery.appear.js') }}"></script>
     <script src="{{ asset('js/one-course-custom.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ asset('js/quiz.js') }}"></script>
 </body>
 
 </html>
